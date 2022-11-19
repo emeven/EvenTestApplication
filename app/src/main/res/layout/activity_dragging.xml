@@ -7,4 +7,19 @@
     android:background="#efefef"
     tools:context=".dragging.DraggingActivity">
 
+    <com.example.eventestapplication.dragging.slide.SlideNestedPanelLayout
+        android:id="@+id/slideNestedPanelLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:anchorPoint="0.65"
+        app:panelHeight="250dp"
+        app:parallaxOffset="50dp"
+        app:scrollView="@+id/nestedScrollView">
+
+        <include layout="@layout/include_main_top" />
+
+        <include layout="@layout/include_main_content" />
+
+    </com.example.eventestapplication.dragging.slide.SlideNestedPanelLayout>
+
 </FrameLayout>
