@@ -12,11 +12,10 @@
         android:gravity="center"
         android:text="面板1 标题" />
 
-    <TextView
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/panelList"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:background="#6A1A33"
-        android:gravity="center"
-        android:text="面板1 内容" />
+        android:layout_height="match_parent"
+        android:background="#6A1A33" />
 
 </LinearLayout>

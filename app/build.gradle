@@ -2,6 +2,7 @@ plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
     id 'org.jetbrains.kotlin.android.extensions'
+    id 'org.jetbrains.kotlin.kapt'
 }
 
 android {
@@ -50,4 +51,6 @@ dependencies {
 
     // MultiTypeAdapter
     implementation "com.drakeet.multitype:multitype:4.2.0"
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:1.7.20"
 }

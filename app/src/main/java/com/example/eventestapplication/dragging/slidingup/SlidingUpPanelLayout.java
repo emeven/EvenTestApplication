@@ -1,5 +1,7 @@
 package com.example.eventestapplication.dragging.slidingup;
 
+import static com.example.eventestapplication.utils.EvenHelperKt.logep;
+
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.os.Parcel;
@@ -13,6 +15,8 @@ import androidx.annotation.NonNull;
 import androidx.core.view.ViewCompat;
 import androidx.customview.widget.ViewDragHelper;
 import com.example.eventestapplication.R;
+import com.example.eventestapplication.dragging.panel.CustomPanelView;
+
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
@@ -77,6 +81,8 @@ public class SlidingUpPanelLayout extends ViewGroup {
     private final ViewDragHelper mDragHelper; // core
     private boolean isFirstLayout = true;
     private Adapter mAdapter;
+
+    private float lastY;
 
     public SlidingUpPanelLayout(Context context) {
         this(context, null);
@@ -253,16 +259,43 @@ public class SlidingUpPanelLayout extends ViewGroup {
     public boolean onInterceptTouchEvent(MotionEvent ev) {
         if (!isEnabled() || !isSlidingEnabled()) {
             mDragHelper.cancel();
-            return super.onInterceptTouchEvent(ev);
+            boolean isIntercept = super.onInterceptTouchEvent(ev);
+            if (isIntercept) {
+                logep("true");
+            } else {
+                logep("false");
+            }
+            return isIntercept;
         }
 
         int action = ev.getActionMasked();
         if (action == MotionEvent.ACTION_CANCEL || action == MotionEvent.ACTION_UP) {
             mDragHelper.cancel();
+            logep("false");
             return false;
         }
 
-        return mDragHelper.shouldInterceptTouchEvent(ev);
+        if (mSlidingUpPanel instanceof CustomPanelView) {
+            float x = ev.getRawX();
+            float y = ev.getRawY();
+            switch (ev.getAction()) {
+                case MotionEvent.ACTION_DOWN:
+                    lastY = y;
+                    break;
+                case MotionEvent.ACTION_MOVE:
+                    float dy = lastY - y;
+                    if (((CustomPanelView) mSlidingUpPanel).canScroll(dy)) return false;
+                    break;
+            }
+        }
+
+        boolean isIntercept = mDragHelper.shouldInterceptTouchEvent(ev);
+        if (isIntercept) {
+            logep("true");
+        } else {
+            logep("false");
+        }
+        return isIntercept;
     }
 
     @Override
