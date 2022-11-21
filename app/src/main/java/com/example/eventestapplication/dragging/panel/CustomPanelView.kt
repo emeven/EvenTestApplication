@@ -26,11 +26,11 @@ class CustomPanelView @JvmOverloads constructor(context: Context, attrs: Attribu
     override fun getPanelView(): CustomPanelView = this
 
     override fun getPanelExpandedHeight(): Int {
-        return UIUtil.getScreenHeight(context) / 4 * 3
+        return UIUtil.getScreenHeight(context)
     }
 
     override fun getPanelCollapsedHeight(): Int {
-        return UIUtil.getScreenHeight(context) / 2
+        return UIUtil.getScreenHeight(context) / 4 * 3
     }
 
     override fun getSlideState(): Int {

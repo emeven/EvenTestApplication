@@ -48,5 +48,6 @@ dependencies {
     // Koin main features for Android
     implementation "io.insert-koin:koin-android:3.3.0"
 
-
+    // MultiTypeAdapter
+    implementation "com.drakeet.multitype:multitype:4.2.0"
 }

@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#aafaaa">
+    android:background="#AAFAAA"
+    android:orientation="vertical">
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="60dp"
+        android:background="#AAFAEA"
         android:gravity="center"
-        android:text="面板1" />
+        android:text="面板1 标题" />
 
-</FrameLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="#6A1A33"
+        android:gravity="center"
+        android:text="面板1 内容" />
+
+</LinearLayout>
