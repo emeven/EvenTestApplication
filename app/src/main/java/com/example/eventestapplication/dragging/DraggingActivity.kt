@@ -7,6 +7,7 @@ import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import com.drakeet.multitype.MultiTypeAdapter
 import com.example.eventestapplication.R
+import com.example.eventestapplication.dragging.itembinder.HeadImageItemBinder
 import com.example.eventestapplication.dragging.itembinder.TitleItemBinder
 import com.example.eventestapplication.dragging.panel.CustomPanelView
 import com.example.eventestapplication.dragging.slidingup.ISlidingUpPanel
@@ -88,10 +89,12 @@ class DraggingActivity : AppCompatActivity() {
 
     private fun registerItem() {
         adapter.register(TitleBean::class.java, TitleItemBinder())
+        adapter.register(String::class.java, HeadImageItemBinder())
     }
 
     private fun loadPanelData() {
         val dataList = listOf(
+            "",
             TitleBean("0 cdjh"),
             TitleBean("1 chudiebdujcnik"),
             TitleBean("2 胡迪和随程度"),
