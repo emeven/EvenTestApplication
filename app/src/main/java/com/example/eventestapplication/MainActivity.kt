@@ -1,19 +1,10 @@
 package com.example.eventestapplication
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
+import androidx.appcompat.app.AppCompatActivity
+import com.example.eventestapplication.bottomsheetbehavior.BottomSheetBehaviorActivity
 import com.example.eventestapplication.dragging.DraggingActivity
-import com.example.eventestapplication.entities.TabBean
-import org.koin.android.ext.android.get
-import org.koin.android.ext.android.getKoin
-import org.koin.android.ext.android.inject
-import org.koin.core.module.dsl.factoryOf
-import org.koin.core.qualifier.named
-import org.koin.dsl.module
-import com.example.eventestapplication.R
 import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.activity_main.view.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -64,6 +55,11 @@ class MainActivity : AppCompatActivity() {
         // 拖拽半层
         draggingDialog.setOnClickListener {
             DraggingActivity.start(this)
+        }
+
+        // bottom sheet behavior
+        bottom_sheet_fragment.setOnClickListener {
+            BottomSheetBehaviorActivity.start(this)
         }
     }
 

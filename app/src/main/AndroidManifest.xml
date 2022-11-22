@@ -26,11 +26,18 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-
         <activity
             android:name=".dragging.DraggingActivity"
-            android:theme="@style/xyreactnative_TranslucentTheme"
-            android:exported="false">
+            android:exported="false"
+            android:theme="@style/xyreactnative_TranslucentTheme">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".bottomsheetbehavior.BottomSheetBehaviorActivity"
+            android:exported="false"
+            android:theme="@style/xyreactnative_TranslucentTheme">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />

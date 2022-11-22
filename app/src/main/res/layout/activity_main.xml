@@ -25,4 +25,13 @@
         android:padding="10dp"
         android:text="可拖拽半层" />
 
+    <TextView
+        android:id="@+id/bottom_sheet_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Bottom Sheet" />
+
 </LinearLayout>
