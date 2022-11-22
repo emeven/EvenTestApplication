@@ -51,9 +51,8 @@ import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Objects;
 
-public class MyViewPagerBottomSheetBehavior<V extends View> extends CoordinatorLayout.Behavior<V> {
+public class RecyclerViewBottomSheetBehavior<V extends View> extends CoordinatorLayout.Behavior<V> {
 
     /**
      * Callback for monitoring events about bottom sheets.
@@ -296,10 +295,10 @@ public class MyViewPagerBottomSheetBehavior<V extends View> extends CoordinatorL
     @Nullable
     private Map<View, Integer> importantForAccessibilityMap;
 
-    public MyViewPagerBottomSheetBehavior() {
+    public RecyclerViewBottomSheetBehavior() {
     }
 
-    public MyViewPagerBottomSheetBehavior(@NonNull Context context, @Nullable AttributeSet attrs) {
+    public RecyclerViewBottomSheetBehavior(@NonNull Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
         TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.BottomSheetBehavior_Layout);
         this.shapeThemingEnabled = a.hasValue(R.styleable.BottomSheetBehavior_Layout_shapeAppearance);
@@ -1662,7 +1661,7 @@ public class MyViewPagerBottomSheetBehavior<V extends View> extends CoordinatorL
             skipCollapsed = source.readInt() == 1;
         }
 
-        public SavedState(Parcelable superState, @NonNull MyViewPagerBottomSheetBehavior<?> behavior) {
+        public SavedState(Parcelable superState, @NonNull RecyclerViewBottomSheetBehavior<?> behavior) {
             super(superState);
             this.state = behavior.getState();
             this.peekHeight = behavior.getPeekHeight();
@@ -1719,17 +1718,17 @@ public class MyViewPagerBottomSheetBehavior<V extends View> extends CoordinatorL
      */
     @NonNull
     @SuppressWarnings("unchecked")
-    public static <V extends View> MyViewPagerBottomSheetBehavior<V> from(@NonNull V view) {
+    public static <V extends View> RecyclerViewBottomSheetBehavior<V> from(@NonNull V view) {
         ViewGroup.LayoutParams params = view.getLayoutParams();
         if (!(params instanceof CoordinatorLayout.LayoutParams)) {
             throw new IllegalArgumentException("The view is not a child of CoordinatorLayout");
         }
         CoordinatorLayout.Behavior<?> behavior =
                 ((CoordinatorLayout.LayoutParams) params).getBehavior();
-        if (!(behavior instanceof MyViewPagerBottomSheetBehavior)) {
+        if (!(behavior instanceof RecyclerViewBottomSheetBehavior)) {
             throw new IllegalArgumentException("The view is not associated with BottomSheetBehavior");
         }
-        return (MyViewPagerBottomSheetBehavior<V>) behavior;
+        return (RecyclerViewBottomSheetBehavior<V>) behavior;
     }
 
     /**

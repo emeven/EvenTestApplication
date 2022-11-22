@@ -21,7 +21,7 @@ class BottomSheetBehaviorActivity : AppCompatActivity() {
 
     private fun addBottomSheetFragment() {
         supportFragmentManager.beginTransaction()
-            .add(R.id.fl_container, BottomSheetFragment.newInstance(MyViewPagerBottomSheetBehavior.from(fl_container)))
+            .add(R.id.fl_container, BottomSheetFragment.newInstance(RecyclerViewBottomSheetBehavior.from(fl_container)))
             .commit()
     }
 

@@ -14,7 +14,7 @@ import com.example.eventestapplication.entities.TitleBean
 import com.example.eventestapplication.utils.logep
 import kotlinx.android.synthetic.main.fragment_bottom_sheet.*
 
-class BottomSheetFragment(val behavior: MyViewPagerBottomSheetBehavior<*>) : Fragment() {
+class BottomSheetFragment(val behavior: RecyclerViewBottomSheetBehavior<*>) : Fragment() {
 
     private val adapter = MultiTypeAdapter()
 
@@ -55,13 +55,13 @@ class BottomSheetFragment(val behavior: MyViewPagerBottomSheetBehavior<*>) : Fra
     }
 
     private fun showSheetDialog() {
-        behavior.setState(MyViewPagerBottomSheetBehavior.STATE_COLLAPSED)
+        behavior.setState(RecyclerViewBottomSheetBehavior.STATE_COLLAPSED)
         behavior.peekHeight = this.resources.displayMetrics.heightPixels / 2 + 50
         behavior.isHideable = true
-        behavior.setBottomSheetCallback(object : MyViewPagerBottomSheetBehavior.BottomSheetCallback() {
+        behavior.setBottomSheetCallback(object : RecyclerViewBottomSheetBehavior.BottomSheetCallback() {
             override fun onStateChanged(bottomSheet: View, newState: Int) {
-                if (newState == MyViewPagerBottomSheetBehavior.STATE_HIDDEN) {
-                    behavior.setState(MyViewPagerBottomSheetBehavior.STATE_COLLAPSED)
+                if (newState == RecyclerViewBottomSheetBehavior.STATE_HIDDEN) {
+                    activity?.finish()
                 }
             }
 
@@ -72,7 +72,7 @@ class BottomSheetFragment(val behavior: MyViewPagerBottomSheetBehavior<*>) : Fra
     }
 
     companion object {
-        fun newInstance(behavior: MyViewPagerBottomSheetBehavior<*>): BottomSheetFragment {
+        fun newInstance(behavior: RecyclerViewBottomSheetBehavior<*>): BottomSheetFragment {
             return BottomSheetFragment(behavior)
         }
     }
