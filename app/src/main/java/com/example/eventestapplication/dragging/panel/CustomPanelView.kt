@@ -11,6 +11,7 @@ import com.example.eventestapplication.R
 import com.example.eventestapplication.dragging.slidingup.ISlidingUpPanel
 import com.example.eventestapplication.dragging.slidingup.SlidingUpPanelLayout
 import com.example.eventestapplication.utils.UIUtil
+import com.example.eventestapplication.utils.logep
 import kotlinx.android.synthetic.main.layout_custom_panel.view.*
 
 class CustomPanelView @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null, defStyle: Int = 0): FrameLayout(context, attrs), ISlidingUpPanel<CustomPanelView> {
@@ -34,7 +35,7 @@ class CustomPanelView @JvmOverloads constructor(context: Context, attrs: Attribu
     }
 
     fun canScroll(dy: Float): Boolean {
-        // dy > 0 上滑
+        // dy > 0 上滑拦截
         val layoutManager = panelList.layoutManager as LinearLayoutManager
         if (layoutManager.findFirstCompletelyVisibleItemPosition() == 0 && dy > 0) {
             return false
@@ -77,6 +78,7 @@ class CustomPanelView @JvmOverloads constructor(context: Context, attrs: Attribu
         // slidedProgress: 0f -> 1f
         // dy: -60 -> -1
         // top: 477 -> 0
+        logep("slidedProgress = $slidedProgress")
     }
 
     private fun getActionString(action: Int): String {

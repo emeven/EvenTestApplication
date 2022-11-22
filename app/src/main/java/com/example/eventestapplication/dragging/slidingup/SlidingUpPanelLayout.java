@@ -276,7 +276,6 @@ public class SlidingUpPanelLayout extends ViewGroup {
         }
 
         if (mSlidingUpPanel instanceof CustomPanelView) {
-            float x = ev.getRawX();
             float y = ev.getRawY();
             switch (ev.getAction()) {
                 case MotionEvent.ACTION_DOWN:

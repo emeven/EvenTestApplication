@@ -3,7 +3,7 @@ package com.example.eventestapplication.dragging
 import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
-import android.util.Log
+import android.widget.FrameLayout
 import androidx.appcompat.app.AppCompatActivity
 import com.drakeet.multitype.MultiTypeAdapter
 import com.example.eventestapplication.R
@@ -13,8 +13,9 @@ import com.example.eventestapplication.dragging.panel.CustomPanelView
 import com.example.eventestapplication.dragging.slidingup.ISlidingUpPanel
 import com.example.eventestapplication.dragging.slidingup.SlidingUpPanelLayout
 import com.example.eventestapplication.entities.TitleBean
+import com.example.eventestapplication.utils.StatusBarUtils
+import com.example.eventestapplication.utils.StatusBarUtils.enableTransparentStatusBar
 import com.example.eventestapplication.utils.UIUtil
-import com.example.eventestapplication.utils.logep
 import kotlinx.android.synthetic.main.activity_dragging_v2.*
 
 
@@ -29,8 +30,12 @@ class DraggingActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        overridePendingTransition(0, 0)
+
         setContentView(R.layout.activity_dragging_v2)
 //        setContentView(R.layout.activity_dragging)
+
+        enableTransparentStatusBar()
 
         registerItem()
 
@@ -39,6 +44,9 @@ class DraggingActivity : AppCompatActivity() {
     }
 
     private fun initSlidingPanel() {
+        sliding_up_panel_layout.layoutParams = (sliding_up_panel_layout.layoutParams as? FrameLayout.LayoutParams)?.apply {
+            setMargins(0, StatusBarUtils.getStatusBarHeight(this@DraggingActivity), 0, 0)
+        }
         sliding_up_panel_layout.setPanelSlideListener(object : SlidingUpPanelLayout.PanelSlideListener {
             override fun onPanelSliding(panel: ISlidingUpPanel<*>?, slideProgress: Float) {
 //                logep("onPanelSliding")
