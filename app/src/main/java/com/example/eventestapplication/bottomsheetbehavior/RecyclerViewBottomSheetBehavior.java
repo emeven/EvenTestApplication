@@ -1226,77 +1226,12 @@ public class RecyclerViewBottomSheetBehavior<V extends View> extends Coordinator
         return Math.abs(newTop - collapsedOffset) / (float) peek > HIDE_THRESHOLD;
     }
 
-    //针对viewpager联动
-    boolean isFirstFind = true; //第一次寻找联动View，为viewPager添加滑动监听
-    //public HashMap<Integer, Boolean> isScrollViewOnTopMap = new HashMap<>(); //关联页数与能否滑动flag的Map
-    private int currentPagePosition = 0; //当前ViewPager的页数
-
-    public void setCurrentScrollViewOnTop(boolean scrollViewOnTop) {
-        //isScrollViewOnTopMap.put(currentPagePosition, scrollViewOnTop);
-        //Log.d("~~~~~~~~~", isScrollViewOnTopMap.toString());
-        notifyScrollView();
-    }
-
-    private View globalView;
-
-    private void notifyScrollView() {
-        nestedScrollingChildRef = new WeakReference<>(findScrollingChild(globalView));
-    }
-
     @Nullable
     @VisibleForTesting
     View findScrollingChild(View view) {
-        if (view == null) {
-            return null;
-        }
-        globalView = view;
-        Boolean b;
-/*        try {
-            b = isScrollViewOnTopMap.get(currentPagePosition);
-        } catch (Exception e) {
-            b = null;
-        }
-        if ( null == b||b==true) {
-            return null;
-        }*/
-
         if (ViewCompat.isNestedScrollingEnabled(view)) {
             return view;
         }
-        if (view instanceof ViewPager) {
-            ViewPager viewPager = (ViewPager) view;
-            if (isFirstFind) {
-                /*for (int i = 0; i < Objects.requireNonNull(viewPager.getAdapter()).getCount(); i++) {
-                    isScrollViewOnTopMap.put(i, false);
-                }*/
-                viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
-                    @Override
-                    public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
-
-                    }
-
-                    @Override
-                    public void onPageSelected(int position) {
-                        currentPagePosition = position;
-                        nestedScrollingChildRef = new WeakReference<>(findScrollingChild(viewPager.getChildAt(position)));
-                    }
-
-                    @Override
-                    public void onPageScrollStateChanged(int state) {
-
-                    }
-                });
-                isFirstFind = false;
-            }
-
-            View currentViewPagerChild = viewPager.getChildAt(currentPagePosition);
-            View scrollingChild = findScrollingChild(currentViewPagerChild);
-            if (scrollingChild != null) {
-                return scrollingChild;
-            }
-            return currentViewPagerChild;
-        }
-
         if (view instanceof ViewGroup) {
             ViewGroup group = (ViewGroup) view;
             for (int i = 0, count = group.getChildCount(); i < count; i++) {

@@ -6,13 +6,13 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.eventestapplication.R
 import com.example.eventestapplication.utils.StatusBarUtils.enableTransparentStatusBar
+import com.google.android.material.bottomsheet.BottomSheetBehavior
 import kotlinx.android.synthetic.main.activity_bottom_sheet_behavior.*
 
 class BottomSheetBehaviorActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_bottom_sheet_behavior)
-
         // 透明状态栏
         enableTransparentStatusBar()
         // bottom sheet
@@ -21,7 +21,7 @@ class BottomSheetBehaviorActivity : AppCompatActivity() {
 
     private fun addBottomSheetFragment() {
         supportFragmentManager.beginTransaction()
-            .add(R.id.fl_container, BottomSheetFragment.newInstance(RecyclerViewBottomSheetBehavior.from(fl_container)))
+            .add(R.id.bottom_sheet_container, BottomSheetFragment.newInstance(BottomSheetBehavior.from(bottom_sheet_container)))
             .commit()
     }
 

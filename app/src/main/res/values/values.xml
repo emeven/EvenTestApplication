@@ -1,0 +1,1310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="reference" name="XhsThemeSwipeBackLayoutStyle"/>
+    <attr format="integer" name="xhs_theme_alpha"/>
+    <attr format="boolean" name="xhs_theme_disable"/>
+    <attr format="boolean" name="xhs_theme_font_disable"/>
+    <attr format="color" name="xhs_theme_support_activity_background"/>
+    <attr format="color" name="xhs_theme_support_color_background"/>
+    <attr format="color" name="xhs_theme_support_color_background_pressed"/>
+    <attr format="color" name="xhs_theme_support_color_separator"/>
+    <attr format="color" name="xhs_theme_support_color_separator_darken"/>
+    <attr format="color" name="xhs_theme_support_pull_refresh_view_color"/>
+    <attr format="color" name="xhs_theme_svg_fill_color"/>
+    <attr format="color" name="xhs_theme_svg_fill_color_night"/>
+    <attr format="color" name="xhs_theme_svg_stroke_color"/>
+    <attr format="color" name="xhs_theme_svg_stroke_color_night"/>
+    <attr format="integer" name="xhs_theme_svg_stroke_width"/>
+    <color name="aiapps_open_location_menu_press">#8FFFFFFF</color>
+    <color name="aiapps_open_location_menu_press_night">#8FFFFFFF</color>
+    <color name="alioth_search_leader_board_pressed_color">#0A000000</color>
+    <color name="alioth_search_leader_board_pressed_color_night">#0A000000</color>
+    <color name="alpha_goods_dark_bg">#1F000000</color>
+    <color name="alpha_goods_dark_bg_night">#1F000000</color>
+    <color name="alpha_white_alpha_70">#B3FFFFFF</color>
+    <color name="alpha_white_alpha_70_night">#B3FFFFFF</color>
+    <color name="base_middle_gray">#f3f3f3</color>
+    <color name="base_middle_gray_night">#f3f3f3</color>
+    <color name="capa_base_middle_gray">#f3f3f3</color>
+    <color name="capa_base_middle_gray_night">#f3f3f3</color>
+    <color name="capa_bgm_cover_bg_solid">#33FF2442</color>
+    <color name="capa_bgm_cover_bg_solid_night">#33FF2442</color>
+    <color name="capa_black_alpha_20">#33000000</color>
+    <color name="capa_black_alpha_20_night">#33000000</color>
+    <color name="capa_border_item_filter_solid">#33FF2442</color>
+    <color name="capa_border_item_filter_solid_night">#33FF2442</color>
+    <color name="capa_gray1">#4f000000</color>
+    <color name="capa_gray1_night">#4f000000</color>
+    <color name="capa_red_video_cover_alpha_20">#33FF2242</color>
+    <color name="capa_red_video_cover_alpha_20_night">#33FF2242</color>
+    <color name="capa_white_alpha_10">#1AFFFFFF</color>
+    <color name="capa_white_alpha_10_night">#1AFFFFFF</color>
+    <color name="capa_white_alpha_40">#66FFFFFF</color>
+    <color name="capa_white_alpha_40_night">#66FFFFFF</color>
+    <color name="capa_white_alpha_50">#80FFFFFF</color>
+    <color name="capa_white_alpha_50_night">#80FFFFFF</color>
+    <color name="capa_white_transparency">#00FFFFFF</color>
+    <color name="capa_white_transparency_night">#00FFFFFF</color>
+    <color name="heiti_light_blue">#50B6EB</color>
+    <color name="heiti_light_blue_night">#50B6EB</color>
+    <color name="hey_4c999999">#4c999999</color>
+    <color name="hey_4c999999_night">#4c999999</color>
+    <color name="matrix_black_4c000000">#4c000000</color>
+    <color name="matrix_black_4c000000_night">#4c000000</color>
+    <color name="matrix_profile_base_pink">#FFA5A5</color>
+    <color name="matrix_profile_base_pink_night">#FFA5A5</color>
+    <color name="matrix_red_FFF4F5">#FFF4F5</color>
+    <color name="matrix_red_FFF4F5_night">#FFF4F5</color>
+    <color name="matrix_translucence_white_night">#7FFFFFFF</color>
+    <color name="matrix_white_D8D8D8">#D8D8D8</color>
+    <color name="matrix_white_D8D8D8_night">#D8D8D8</color>
+    <color name="smssdk_gray_press">#fff2f2f2</color>
+    <color name="smssdk_gray_press_night">#fff2f2f2</color>
+    <color name="widgets_base_middle_gray">#f3f3f3</color>
+    <color name="widgets_base_middle_gray_night">#f3f3f3</color>
+    <color name="widgets_cardview_dark_background">#FF424242</color>
+    <color name="widgets_cardview_dark_background_night">#FF424242</color>
+    <color name="widgets_little_transparent_white">#4CFFFFFF</color>
+    <color name="widgets_little_transparent_white_night">#4CFFFFFF</color>
+    <color name="widgets_toolbar_btn_select">#D9D9D9</color>
+    <color name="widgets_toolbar_btn_select_night">#D9D9D9</color>
+    <color name="xhsTheme_always_colorBlack100">#1A333333</color>
+    <color name="xhsTheme_always_colorBlack1000">#FF333333</color>
+    <color name="xhsTheme_always_colorBlack200">#33333333</color>
+    <color name="xhsTheme_always_colorBlack25">#08333333</color>
+    <color name="xhsTheme_always_colorBlack400">#66333333</color>
+    <color name="xhsTheme_always_colorBlack50">#0D333333</color>
+    <color name="xhsTheme_always_colorBlack600">#99333333</color>
+    <color name="xhsTheme_always_colorBlack800">#CC333333</color>
+    <color name="xhsTheme_always_colorBlue100">#333d8af5</color>
+    <color name="xhsTheme_always_colorBlue200">#663d8af5</color>
+    <color name="xhsTheme_always_colorBlue400">#FF3d8af5</color>
+    <color name="xhsTheme_always_colorBlue50">#1A3d8af5</color>
+    <color name="xhsTheme_always_colorGreen100">#3330da6a</color>
+    <color name="xhsTheme_always_colorGreen200">#6630da6a</color>
+    <color name="xhsTheme_always_colorGreen400">#FF30da6a</color>
+    <color name="xhsTheme_always_colorGreen50">#1A30da6a</color>
+    <color name="xhsTheme_always_colorOrange100">#33ff9635</color>
+    <color name="xhsTheme_always_colorOrange200">#66ff9635</color>
+    <color name="xhsTheme_always_colorOrange400">#FFff9635</color>
+    <color name="xhsTheme_always_colorOrange50">#1Aff9635</color>
+    <color name="xhsTheme_always_colorRed100">#33ff2442</color>
+    <color name="xhsTheme_always_colorRed200">#66ff2442</color>
+    <color name="xhsTheme_always_colorRed400">#FFff2442</color>
+    <color name="xhsTheme_always_colorRed50">#1Aff2442</color>
+    <color name="xhsTheme_always_colorWhite100">#21FFFFFF</color>
+    <color name="xhsTheme_always_colorWhite1000">#FFFFFFFF</color>
+    <color name="xhsTheme_always_colorWhite200">#33FFFFFF</color>
+    <color name="xhsTheme_always_colorWhite25">#0DFFFFFF</color>
+    <color name="xhsTheme_always_colorWhite400">#66FFFFFF</color>
+    <color name="xhsTheme_always_colorWhite50">#14FFFFFF</color>
+    <color name="xhsTheme_always_colorWhite600">#99FFFFFF</color>
+    <color name="xhsTheme_always_colorWhite800">#CCFFFFFF</color>
+    <color name="xhsTheme_always_colorYellow100">#33ffe900</color>
+    <color name="xhsTheme_always_colorYellow200">#66ffe900</color>
+    <color name="xhsTheme_always_colorYellow400">#FFffe900</color>
+    <color name="xhsTheme_always_colorYellow50">#1Affe900</color>
+    <color name="xhsTheme_colorBackgroundNull">@null</color>
+    <color name="xhsTheme_colorBackgroundNull_night">@null</color>
+    <color name="xhsTheme_colorBlack">#000000</color>
+    <color name="xhsTheme_colorBlack_alpha_0">#00000000</color>
+    <color name="xhsTheme_colorBlack_alpha_0_night">#00000000</color>
+    <color name="xhsTheme_colorBlack_alpha_10">#1A000000</color>
+    <color name="xhsTheme_colorBlack_alpha_10_night">#1A000000</color>
+    <color name="xhsTheme_colorBlack_alpha_15">#26000000</color>
+    <color name="xhsTheme_colorBlack_alpha_15_night">#26000000</color>
+    <color name="xhsTheme_colorBlack_alpha_20">#33000000</color>
+    <color name="xhsTheme_colorBlack_alpha_20_night">#33000000</color>
+    <color name="xhsTheme_colorBlack_alpha_25">#40000000</color>
+    <color name="xhsTheme_colorBlack_alpha_25_night">#40000000</color>
+    <color name="xhsTheme_colorBlack_alpha_30">#4D000000</color>
+    <color name="xhsTheme_colorBlack_alpha_30_night">#4D000000</color>
+    <color name="xhsTheme_colorBlack_alpha_35">#59000000</color>
+    <color name="xhsTheme_colorBlack_alpha_35_night">#59000000</color>
+    <color name="xhsTheme_colorBlack_alpha_40">#66000000</color>
+    <color name="xhsTheme_colorBlack_alpha_40_night">#66000000</color>
+    <color name="xhsTheme_colorBlack_alpha_45">#73000000</color>
+    <color name="xhsTheme_colorBlack_alpha_45_night">#73000000</color>
+    <color name="xhsTheme_colorBlack_alpha_5">#0D000000</color>
+    <color name="xhsTheme_colorBlack_alpha_50">#80000000</color>
+    <color name="xhsTheme_colorBlack_alpha_50_night">#80000000</color>
+    <color name="xhsTheme_colorBlack_alpha_55">#8C000000</color>
+    <color name="xhsTheme_colorBlack_alpha_55_night">#8C000000</color>
+    <color name="xhsTheme_colorBlack_alpha_5_night">#0D000000</color>
+    <color name="xhsTheme_colorBlack_alpha_60">#99000000</color>
+    <color name="xhsTheme_colorBlack_alpha_60_night">#99000000</color>
+    <color name="xhsTheme_colorBlack_alpha_65">#A6000000</color>
+    <color name="xhsTheme_colorBlack_alpha_65_night">#A6000000</color>
+    <color name="xhsTheme_colorBlack_alpha_70">#B3000000</color>
+    <color name="xhsTheme_colorBlack_alpha_70_night">#B3000000</color>
+    <color name="xhsTheme_colorBlack_alpha_75">#BF000000</color>
+    <color name="xhsTheme_colorBlack_alpha_75_night">#BF000000</color>
+    <color name="xhsTheme_colorBlack_alpha_80">#CC000000</color>
+    <color name="xhsTheme_colorBlack_alpha_80_night">#CC000000</color>
+    <color name="xhsTheme_colorBlack_alpha_85">#D9000000</color>
+    <color name="xhsTheme_colorBlack_alpha_85_night">#D9000000</color>
+    <color name="xhsTheme_colorBlack_alpha_90">#E6000000</color>
+    <color name="xhsTheme_colorBlack_alpha_90_night">#E6000000</color>
+    <color name="xhsTheme_colorBlack_alpha_95">#F2000000</color>
+    <color name="xhsTheme_colorBlack_alpha_95_night">#F2000000</color>
+    <color name="xhsTheme_colorBlack_night">#000000</color>
+    <color name="xhsTheme_colorBlue100">#333d8af5</color>
+    <color name="xhsTheme_colorBlue100_night">#334790f5</color>
+    <color name="xhsTheme_colorBlue200">#663d8af5</color>
+    <color name="xhsTheme_colorBlue200_night">#664790f5</color>
+    <color name="xhsTheme_colorBlue400">#FF3d8af5</color>
+    <color name="xhsTheme_colorBlue400_night">#FF4790f5</color>
+    <color name="xhsTheme_colorBlue50">#1A3d8af5</color>
+    <color name="xhsTheme_colorBlue50_night">#1A4790f5</color>
+    <color name="xhsTheme_colorGray0">#FFFFFFFF</color>
+    <color name="xhsTheme_colorGray0_night">#FF000000</color>
+    <color name="xhsTheme_colorGray100">#1A333333</color>
+    <color name="xhsTheme_colorGray1000">#FF333333</color>
+    <color name="xhsTheme_colorGray1000_night">#FFFFFFFF</color>
+    <color name="xhsTheme_colorGray100_night">#1AFFFFFF</color>
+    <color name="xhsTheme_colorGray200">#33333333</color>
+    <color name="xhsTheme_colorGray200_night">#33FFFFFF</color>
+    <color name="xhsTheme_colorGray25">#08333333</color>
+    <color name="xhsTheme_colorGray25_night">#08FFFFFF</color>
+    <color name="xhsTheme_colorGray400">#66333333</color>
+    <color name="xhsTheme_colorGray400_night">#66FFFFFF</color>
+    <color name="xhsTheme_colorGray50">#0D333333</color>
+    <color name="xhsTheme_colorGray50_night">#0DFFFFFF</color>
+    <color name="xhsTheme_colorGray600">#99333333</color>
+    <color name="xhsTheme_colorGray600_night">#99FFFFFF</color>
+    <color name="xhsTheme_colorGray800">#CC333333</color>
+    <color name="xhsTheme_colorGray800_night">#CCFFFFFF</color>
+    <color name="xhsTheme_colorGrayLevel1">#333333</color>
+    <color name="xhsTheme_colorGrayLevel1_alpha_0">#00333333</color>
+    <color name="xhsTheme_colorGrayLevel1_alpha_0_night">#00D5D7DD</color>
+    <color name="xhsTheme_colorGrayLevel1_alpha_10">#1A333333</color>
+    <color name="xhsTheme_colorGrayLevel1_alpha_10_night">#1AD5D7DD</color>
+    <color name="xhsTheme_colorGrayLevel1_alpha_15">#26333333</color>
+    <color name="xhsTheme_colorGrayLevel1_alpha_15_night">#26D5D7DD</color>
+    <color name="xhsTheme_colorGrayLevel1_alpha_20">#33333333</color>
+    <color name="xhsTheme_colorGrayLevel1_alpha_20_night">#33D5D7DD</color>
+    <color name="xhsTheme_colorGrayLevel1_alpha_25">#40333333</color>
+    <color name="xhsTheme_colorGrayLevel1_alpha_25_night">#40D5D7DD</color>
+    <color name="xhsTheme_colorGrayLevel1_alpha_30">#4D333333</color>
+    <color name="xhsTheme_colorGrayLevel1_alpha_30_night">#4DD5D7DD</color>
+    <color name="xhsTheme_colorGrayLevel1_alpha_35">#59333333</color>
+    <color name="xhsTheme_colorGrayLevel1_alpha_35_night">#59D5D7DD</color>
+    <color name="xhsTheme_colorGrayLevel1_alpha_4">#0A333333</color>
+    <color name="xhsTheme_colorGrayLevel1_alpha_40">#66333333</color>
+    <color name="xhsTheme_colorGrayLevel1_alpha_40_night">#66D5D7DD</color>
+    <color name="xhsTheme_colorGrayLevel1_alpha_45">#73333333</color>
+    <color name="xhsTheme_colorGrayLevel1_alpha_45_night">#73D5D7DD</color>
+    <color name="xhsTheme_colorGrayLevel1_alpha_4_night">#0AD5D7DD</color>
+    <color name="xhsTheme_colorGrayLevel1_alpha_5">#0D333333</color>
+    <color name="xhsTheme_colorGrayLevel1_alpha_50">#80333333</color>
+    <color name="xhsTheme_colorGrayLevel1_alpha_50_night">#80D5D7DD</color>
+    <color name="xhsTheme_colorGrayLevel1_alpha_55">#8C333333</color>
+    <color name="xhsTheme_colorGrayLevel1_alpha_55_night">#8CD5D7DD</color>
+    <color name="xhsTheme_colorGrayLevel1_alpha_5_night">#0DD5D7DD</color>
+    <color name="xhsTheme_colorGrayLevel1_alpha_60">#99333333</color>
+    <color name="xhsTheme_colorGrayLevel1_alpha_60_night">#99D5D7DD</color>
+    <color name="xhsTheme_colorGrayLevel1_alpha_65">#A6333333</color>
+    <color name="xhsTheme_colorGrayLevel1_alpha_65_night">#A6D5D7DD</color>
+    <color name="xhsTheme_colorGrayLevel1_alpha_70">#B3333333</color>
+    <color name="xhsTheme_colorGrayLevel1_alpha_70_night">#B3D5D7DD</color>
+    <color name="xhsTheme_colorGrayLevel1_alpha_75">#BF333333</color>
+    <color name="xhsTheme_colorGrayLevel1_alpha_75_night">#BFD5D7DD</color>
+    <color name="xhsTheme_colorGrayLevel1_alpha_80">#CC333333</color>
+    <color name="xhsTheme_colorGrayLevel1_alpha_80_night">#CCD5D7DD</color>
+    <color name="xhsTheme_colorGrayLevel1_alpha_85">#D9333333</color>
+    <color name="xhsTheme_colorGrayLevel1_alpha_85_night">#D9D5D7DD</color>
+    <color name="xhsTheme_colorGrayLevel1_alpha_90">#E6333333</color>
+    <color name="xhsTheme_colorGrayLevel1_alpha_90_night">#E6D5D7DD</color>
+    <color name="xhsTheme_colorGrayLevel1_alpha_95">#F2333333</color>
+    <color name="xhsTheme_colorGrayLevel1_alpha_95_night">#F2D5D7DD</color>
+    <color name="xhsTheme_colorGrayLevel1_night">#D5D7DD</color>
+    <color name="xhsTheme_colorGrayLevel2">#666666</color>
+    <color name="xhsTheme_colorGrayLevel2_alpha_0">#00666666</color>
+    <color name="xhsTheme_colorGrayLevel2_alpha_0_night">#0093979F</color>
+    <color name="xhsTheme_colorGrayLevel2_alpha_10">#1A666666</color>
+    <color name="xhsTheme_colorGrayLevel2_alpha_10_night">#1A93979F</color>
+    <color name="xhsTheme_colorGrayLevel2_alpha_15">#26666666</color>
+    <color name="xhsTheme_colorGrayLevel2_alpha_15_night">#2693979F</color>
+    <color name="xhsTheme_colorGrayLevel2_alpha_20">#33666666</color>
+    <color name="xhsTheme_colorGrayLevel2_alpha_20_night">#3393979F</color>
+    <color name="xhsTheme_colorGrayLevel2_alpha_25">#40666666</color>
+    <color name="xhsTheme_colorGrayLevel2_alpha_25_night">#4093979F</color>
+    <color name="xhsTheme_colorGrayLevel2_alpha_30">#4D666666</color>
+    <color name="xhsTheme_colorGrayLevel2_alpha_30_night">#4D93979F</color>
+    <color name="xhsTheme_colorGrayLevel2_alpha_35">#59666666</color>
+    <color name="xhsTheme_colorGrayLevel2_alpha_35_night">#5993979F</color>
+    <color name="xhsTheme_colorGrayLevel2_alpha_40">#66666666</color>
+    <color name="xhsTheme_colorGrayLevel2_alpha_40_night">#6693979F</color>
+    <color name="xhsTheme_colorGrayLevel2_alpha_45">#73666666</color>
+    <color name="xhsTheme_colorGrayLevel2_alpha_45_night">#7393979F</color>
+    <color name="xhsTheme_colorGrayLevel2_alpha_5">#0D666666</color>
+    <color name="xhsTheme_colorGrayLevel2_alpha_50">#80666666</color>
+    <color name="xhsTheme_colorGrayLevel2_alpha_50_night">#8093979F</color>
+    <color name="xhsTheme_colorGrayLevel2_alpha_55">#8C666666</color>
+    <color name="xhsTheme_colorGrayLevel2_alpha_55_night">#8C93979F</color>
+    <color name="xhsTheme_colorGrayLevel2_alpha_5_night">#0D93979F</color>
+    <color name="xhsTheme_colorGrayLevel2_alpha_60">#99666666</color>
+    <color name="xhsTheme_colorGrayLevel2_alpha_60_night">#9993979F</color>
+    <color name="xhsTheme_colorGrayLevel2_alpha_65">#A6666666</color>
+    <color name="xhsTheme_colorGrayLevel2_alpha_65_night">#A693979F</color>
+    <color name="xhsTheme_colorGrayLevel2_alpha_70">#B3666666</color>
+    <color name="xhsTheme_colorGrayLevel2_alpha_70_night">#B393979F</color>
+    <color name="xhsTheme_colorGrayLevel2_alpha_75">#BF666666</color>
+    <color name="xhsTheme_colorGrayLevel2_alpha_75_night">#BF93979F</color>
+    <color name="xhsTheme_colorGrayLevel2_alpha_80">#CC666666</color>
+    <color name="xhsTheme_colorGrayLevel2_alpha_80_night">#CC93979F</color>
+    <color name="xhsTheme_colorGrayLevel2_alpha_85">#D9666666</color>
+    <color name="xhsTheme_colorGrayLevel2_alpha_85_night">#D993979F</color>
+    <color name="xhsTheme_colorGrayLevel2_alpha_90">#E6666666</color>
+    <color name="xhsTheme_colorGrayLevel2_alpha_90_night">#E693979F</color>
+    <color name="xhsTheme_colorGrayLevel2_alpha_95">#F2666666</color>
+    <color name="xhsTheme_colorGrayLevel2_alpha_95_night">#F293979F</color>
+    <color name="xhsTheme_colorGrayLevel2_night">#93979F</color>
+    <color name="xhsTheme_colorGrayLevel3">#999999</color>
+    <color name="xhsTheme_colorGrayLevel3_alpha_0">#00999999</color>
+    <color name="xhsTheme_colorGrayLevel3_alpha_0_night">#006C717A</color>
+    <color name="xhsTheme_colorGrayLevel3_alpha_10">#1A999999</color>
+    <color name="xhsTheme_colorGrayLevel3_alpha_10_night">#1A6C717A</color>
+    <color name="xhsTheme_colorGrayLevel3_alpha_15">#26999999</color>
+    <color name="xhsTheme_colorGrayLevel3_alpha_15_night">#266C717A</color>
+    <color name="xhsTheme_colorGrayLevel3_alpha_20">#33999999</color>
+    <color name="xhsTheme_colorGrayLevel3_alpha_20_night">#336C717A</color>
+    <color name="xhsTheme_colorGrayLevel3_alpha_25">#40999999</color>
+    <color name="xhsTheme_colorGrayLevel3_alpha_25_night">#406C717A</color>
+    <color name="xhsTheme_colorGrayLevel3_alpha_30">#4D999999</color>
+    <color name="xhsTheme_colorGrayLevel3_alpha_30_night">#4D6C717A</color>
+    <color name="xhsTheme_colorGrayLevel3_alpha_35">#59999999</color>
+    <color name="xhsTheme_colorGrayLevel3_alpha_35_night">#596C717A</color>
+    <color name="xhsTheme_colorGrayLevel3_alpha_40">#66999999</color>
+    <color name="xhsTheme_colorGrayLevel3_alpha_40_night">#666C717A</color>
+    <color name="xhsTheme_colorGrayLevel3_alpha_45">#73999999</color>
+    <color name="xhsTheme_colorGrayLevel3_alpha_45_night">#736C717A</color>
+    <color name="xhsTheme_colorGrayLevel3_alpha_5">#0D999999</color>
+    <color name="xhsTheme_colorGrayLevel3_alpha_50">#80999999</color>
+    <color name="xhsTheme_colorGrayLevel3_alpha_50_night">#806C717A</color>
+    <color name="xhsTheme_colorGrayLevel3_alpha_55">#8C999999</color>
+    <color name="xhsTheme_colorGrayLevel3_alpha_55_night">#8C6C717A</color>
+    <color name="xhsTheme_colorGrayLevel3_alpha_5_night">#0D6C717A</color>
+    <color name="xhsTheme_colorGrayLevel3_alpha_60">#99999999</color>
+    <color name="xhsTheme_colorGrayLevel3_alpha_60_night">#996C717A</color>
+    <color name="xhsTheme_colorGrayLevel3_alpha_65">#A6999999</color>
+    <color name="xhsTheme_colorGrayLevel3_alpha_65_night">#A66C717A</color>
+    <color name="xhsTheme_colorGrayLevel3_alpha_70">#B3999999</color>
+    <color name="xhsTheme_colorGrayLevel3_alpha_70_night">#B36C717A</color>
+    <color name="xhsTheme_colorGrayLevel3_alpha_75">#BF999999</color>
+    <color name="xhsTheme_colorGrayLevel3_alpha_75_night">#BF6C717A</color>
+    <color name="xhsTheme_colorGrayLevel3_alpha_80">#CC999999</color>
+    <color name="xhsTheme_colorGrayLevel3_alpha_80_night">#CC6C717A</color>
+    <color name="xhsTheme_colorGrayLevel3_alpha_85">#D9999999</color>
+    <color name="xhsTheme_colorGrayLevel3_alpha_85_night">#D96C717A</color>
+    <color name="xhsTheme_colorGrayLevel3_alpha_90">#E6999999</color>
+    <color name="xhsTheme_colorGrayLevel3_alpha_90_night">#E66C717A</color>
+    <color name="xhsTheme_colorGrayLevel3_alpha_95">#F2999999</color>
+    <color name="xhsTheme_colorGrayLevel3_alpha_95_night">#F26C717A</color>
+    <color name="xhsTheme_colorGrayLevel3_night">#6C717A</color>
+    <color name="xhsTheme_colorGrayLevel4">#CCCCCC</color>
+    <color name="xhsTheme_colorGrayLevel4_alpha_0">#00CCCCCC</color>
+    <color name="xhsTheme_colorGrayLevel4_alpha_0_night">#00454954</color>
+    <color name="xhsTheme_colorGrayLevel4_alpha_10">#1ACCCCCC</color>
+    <color name="xhsTheme_colorGrayLevel4_alpha_10_night">#1A454954</color>
+    <color name="xhsTheme_colorGrayLevel4_alpha_15">#26CCCCCC</color>
+    <color name="xhsTheme_colorGrayLevel4_alpha_15_night">#26454954</color>
+    <color name="xhsTheme_colorGrayLevel4_alpha_20">#33CCCCCC</color>
+    <color name="xhsTheme_colorGrayLevel4_alpha_20_night">#33454954</color>
+    <color name="xhsTheme_colorGrayLevel4_alpha_25">#40CCCCCC</color>
+    <color name="xhsTheme_colorGrayLevel4_alpha_25_night">#40454954</color>
+    <color name="xhsTheme_colorGrayLevel4_alpha_30">#4DCCCCCC</color>
+    <color name="xhsTheme_colorGrayLevel4_alpha_30_night">#4D454954</color>
+    <color name="xhsTheme_colorGrayLevel4_alpha_35">#59CCCCCC</color>
+    <color name="xhsTheme_colorGrayLevel4_alpha_35_night">#59454954</color>
+    <color name="xhsTheme_colorGrayLevel4_alpha_40">#66CCCCCC</color>
+    <color name="xhsTheme_colorGrayLevel4_alpha_40_night">#66454954</color>
+    <color name="xhsTheme_colorGrayLevel4_alpha_45">#73CCCCCC</color>
+    <color name="xhsTheme_colorGrayLevel4_alpha_45_night">#73454954</color>
+    <color name="xhsTheme_colorGrayLevel4_alpha_5">#0DCCCCCC</color>
+    <color name="xhsTheme_colorGrayLevel4_alpha_50">#80CCCCCC</color>
+    <color name="xhsTheme_colorGrayLevel4_alpha_50_night">#80454954</color>
+    <color name="xhsTheme_colorGrayLevel4_alpha_55">#8CCCCCCC</color>
+    <color name="xhsTheme_colorGrayLevel4_alpha_55_night">#8C454954</color>
+    <color name="xhsTheme_colorGrayLevel4_alpha_5_night">#0D454954</color>
+    <color name="xhsTheme_colorGrayLevel4_alpha_60">#99CCCCCC</color>
+    <color name="xhsTheme_colorGrayLevel4_alpha_60_night">#99454954</color>
+    <color name="xhsTheme_colorGrayLevel4_alpha_65">#A6CCCCCC</color>
+    <color name="xhsTheme_colorGrayLevel4_alpha_65_night">#A6454954</color>
+    <color name="xhsTheme_colorGrayLevel4_alpha_70">#B3CCCCCC</color>
+    <color name="xhsTheme_colorGrayLevel4_alpha_70_night">#B3454954</color>
+    <color name="xhsTheme_colorGrayLevel4_alpha_75">#BFCCCCCC</color>
+    <color name="xhsTheme_colorGrayLevel4_alpha_75_night">#BF454954</color>
+    <color name="xhsTheme_colorGrayLevel4_alpha_80">#CCCCCCCC</color>
+    <color name="xhsTheme_colorGrayLevel4_alpha_80_night">#CC454954</color>
+    <color name="xhsTheme_colorGrayLevel4_alpha_85">#D9CCCCCC</color>
+    <color name="xhsTheme_colorGrayLevel4_alpha_85_night">#D9454954</color>
+    <color name="xhsTheme_colorGrayLevel4_alpha_90">#E6CCCCCC</color>
+    <color name="xhsTheme_colorGrayLevel4_alpha_90_night">#E6454954</color>
+    <color name="xhsTheme_colorGrayLevel4_alpha_95">#F2CCCCCC</color>
+    <color name="xhsTheme_colorGrayLevel4_alpha_95_night">#F2454954</color>
+    <color name="xhsTheme_colorGrayLevel4_night">#454954</color>
+    <color name="xhsTheme_colorGrayLevel5">#E6E6E6</color>
+    <color name="xhsTheme_colorGrayLevel5_alpha_0">#00E6E6E6</color>
+    <color name="xhsTheme_colorGrayLevel5_alpha_0_night">#002A2A32</color>
+    <color name="xhsTheme_colorGrayLevel5_alpha_10">#1AE6E6E6</color>
+    <color name="xhsTheme_colorGrayLevel5_alpha_10_night">#1A2A2A32</color>
+    <color name="xhsTheme_colorGrayLevel5_alpha_15">#26E6E6E6</color>
+    <color name="xhsTheme_colorGrayLevel5_alpha_15_night">#262A2A32</color>
+    <color name="xhsTheme_colorGrayLevel5_alpha_20">#33E6E6E6</color>
+    <color name="xhsTheme_colorGrayLevel5_alpha_20_night">#332A2A32</color>
+    <color name="xhsTheme_colorGrayLevel5_alpha_25">#40E6E6E6</color>
+    <color name="xhsTheme_colorGrayLevel5_alpha_25_night">#402A2A32</color>
+    <color name="xhsTheme_colorGrayLevel5_alpha_30">#4DE6E6E6</color>
+    <color name="xhsTheme_colorGrayLevel5_alpha_30_night">#4D2A2A32</color>
+    <color name="xhsTheme_colorGrayLevel5_alpha_35">#59E6E6E6</color>
+    <color name="xhsTheme_colorGrayLevel5_alpha_35_night">#592A2A32</color>
+    <color name="xhsTheme_colorGrayLevel5_alpha_40">#66E6E6E6</color>
+    <color name="xhsTheme_colorGrayLevel5_alpha_40_night">#662A2A32</color>
+    <color name="xhsTheme_colorGrayLevel5_alpha_45">#73E6E6E6</color>
+    <color name="xhsTheme_colorGrayLevel5_alpha_45_night">#732A2A32</color>
+    <color name="xhsTheme_colorGrayLevel5_alpha_5">#0DE6E6E6</color>
+    <color name="xhsTheme_colorGrayLevel5_alpha_50">#80E6E6E6</color>
+    <color name="xhsTheme_colorGrayLevel5_alpha_50_night">#802A2A32</color>
+    <color name="xhsTheme_colorGrayLevel5_alpha_55">#8CE6E6E6</color>
+    <color name="xhsTheme_colorGrayLevel5_alpha_55_night">#8C2A2A32</color>
+    <color name="xhsTheme_colorGrayLevel5_alpha_5_night">#0D2A2A32</color>
+    <color name="xhsTheme_colorGrayLevel5_alpha_60">#99E6E6E6</color>
+    <color name="xhsTheme_colorGrayLevel5_alpha_60_night">#992A2A32</color>
+    <color name="xhsTheme_colorGrayLevel5_alpha_65">#A6E6E6E6</color>
+    <color name="xhsTheme_colorGrayLevel5_alpha_65_night">#A62A2A32</color>
+    <color name="xhsTheme_colorGrayLevel5_alpha_70">#B3E6E6E6</color>
+    <color name="xhsTheme_colorGrayLevel5_alpha_70_night">#B32A2A32</color>
+    <color name="xhsTheme_colorGrayLevel5_alpha_75">#BFE6E6E6</color>
+    <color name="xhsTheme_colorGrayLevel5_alpha_75_night">#BF2A2A32</color>
+    <color name="xhsTheme_colorGrayLevel5_alpha_80">#CCE6E6E6</color>
+    <color name="xhsTheme_colorGrayLevel5_alpha_80_night">#CC2A2A32</color>
+    <color name="xhsTheme_colorGrayLevel5_alpha_85">#D9E6E6E6</color>
+    <color name="xhsTheme_colorGrayLevel5_alpha_85_night">#D92A2A32</color>
+    <color name="xhsTheme_colorGrayLevel5_alpha_90">#E6E6E6E6</color>
+    <color name="xhsTheme_colorGrayLevel5_alpha_90_night">#E62A2A32</color>
+    <color name="xhsTheme_colorGrayLevel5_alpha_95">#F2E6E6E6</color>
+    <color name="xhsTheme_colorGrayLevel5_alpha_95_night">#F22A2A32</color>
+    <color name="xhsTheme_colorGrayLevel5_night">#2A2A32</color>
+    <color name="xhsTheme_colorGrayLevel6">#F5F5F5</color>
+    <color name="xhsTheme_colorGrayLevel6_alpha_0">#00F5F5F5</color>
+    <color name="xhsTheme_colorGrayLevel6_alpha_0_night">#0026262C</color>
+    <color name="xhsTheme_colorGrayLevel6_alpha_10">#1AF5F5F5</color>
+    <color name="xhsTheme_colorGrayLevel6_alpha_10_night">#1A26262C</color>
+    <color name="xhsTheme_colorGrayLevel6_alpha_15">#26F5F5F5</color>
+    <color name="xhsTheme_colorGrayLevel6_alpha_15_night">#2626262C</color>
+    <color name="xhsTheme_colorGrayLevel6_alpha_20">#33F5F5F5</color>
+    <color name="xhsTheme_colorGrayLevel6_alpha_20_night">#3326262C</color>
+    <color name="xhsTheme_colorGrayLevel6_alpha_25">#40F5F5F5</color>
+    <color name="xhsTheme_colorGrayLevel6_alpha_25_night">#4026262C</color>
+    <color name="xhsTheme_colorGrayLevel6_alpha_30">#4DF5F5F5</color>
+    <color name="xhsTheme_colorGrayLevel6_alpha_30_night">#4D26262C</color>
+    <color name="xhsTheme_colorGrayLevel6_alpha_35">#59F5F5F5</color>
+    <color name="xhsTheme_colorGrayLevel6_alpha_35_night">#5926262C</color>
+    <color name="xhsTheme_colorGrayLevel6_alpha_40">#66F5F5F5</color>
+    <color name="xhsTheme_colorGrayLevel6_alpha_40_night">#6626262C</color>
+    <color name="xhsTheme_colorGrayLevel6_alpha_45">#73F5F5F5</color>
+    <color name="xhsTheme_colorGrayLevel6_alpha_45_night">#7326262C</color>
+    <color name="xhsTheme_colorGrayLevel6_alpha_5">#0DF5F5F5</color>
+    <color name="xhsTheme_colorGrayLevel6_alpha_50">#80F5F5F5</color>
+    <color name="xhsTheme_colorGrayLevel6_alpha_50_night">#8026262C</color>
+    <color name="xhsTheme_colorGrayLevel6_alpha_55">#8CF5F5F5</color>
+    <color name="xhsTheme_colorGrayLevel6_alpha_55_night">#8C26262C</color>
+    <color name="xhsTheme_colorGrayLevel6_alpha_5_night">#0D26262C</color>
+    <color name="xhsTheme_colorGrayLevel6_alpha_60">#99F5F5F5</color>
+    <color name="xhsTheme_colorGrayLevel6_alpha_60_night">#9926262C</color>
+    <color name="xhsTheme_colorGrayLevel6_alpha_65">#A6F5F5F5</color>
+    <color name="xhsTheme_colorGrayLevel6_alpha_65_night">#A626262C</color>
+    <color name="xhsTheme_colorGrayLevel6_alpha_70">#B3F5F5F5</color>
+    <color name="xhsTheme_colorGrayLevel6_alpha_70_night">#B326262C</color>
+    <color name="xhsTheme_colorGrayLevel6_alpha_75">#BFF5F5F5</color>
+    <color name="xhsTheme_colorGrayLevel6_alpha_75_night">#BF26262C</color>
+    <color name="xhsTheme_colorGrayLevel6_alpha_80">#CCF5F5F5</color>
+    <color name="xhsTheme_colorGrayLevel6_alpha_80_night">#CC26262C</color>
+    <color name="xhsTheme_colorGrayLevel6_alpha_85">#D9F5F5F5</color>
+    <color name="xhsTheme_colorGrayLevel6_alpha_85_night">#D926262C</color>
+    <color name="xhsTheme_colorGrayLevel6_alpha_90">#E6F5F5F5</color>
+    <color name="xhsTheme_colorGrayLevel6_alpha_90_night">#E626262C</color>
+    <color name="xhsTheme_colorGrayLevel6_alpha_95">#F2F5F5F5</color>
+    <color name="xhsTheme_colorGrayLevel6_alpha_95_night">#F226262C</color>
+    <color name="xhsTheme_colorGrayLevel6_night">#26262C</color>
+    <color name="xhsTheme_colorGrayLevel7">#FAFAFA</color>
+    <color name="xhsTheme_colorGrayLevel7_alpha_0">#00FAFAFA</color>
+    <color name="xhsTheme_colorGrayLevel7_alpha_0_night">#000E0E11</color>
+    <color name="xhsTheme_colorGrayLevel7_alpha_10">#1AFAFAFA</color>
+    <color name="xhsTheme_colorGrayLevel7_alpha_10_night">#1A0E0E11</color>
+    <color name="xhsTheme_colorGrayLevel7_alpha_15">#26FAFAFA</color>
+    <color name="xhsTheme_colorGrayLevel7_alpha_15_night">#260E0E11</color>
+    <color name="xhsTheme_colorGrayLevel7_alpha_20">#33FAFAFA</color>
+    <color name="xhsTheme_colorGrayLevel7_alpha_20_night">#330E0E11</color>
+    <color name="xhsTheme_colorGrayLevel7_alpha_25">#40FAFAFA</color>
+    <color name="xhsTheme_colorGrayLevel7_alpha_25_night">#400E0E11</color>
+    <color name="xhsTheme_colorGrayLevel7_alpha_30">#4DFAFAFA</color>
+    <color name="xhsTheme_colorGrayLevel7_alpha_30_night">#4D0E0E11</color>
+    <color name="xhsTheme_colorGrayLevel7_alpha_35">#59FAFAFA</color>
+    <color name="xhsTheme_colorGrayLevel7_alpha_35_night">#590E0E11</color>
+    <color name="xhsTheme_colorGrayLevel7_alpha_40">#66FAFAFA</color>
+    <color name="xhsTheme_colorGrayLevel7_alpha_40_night">#660E0E11</color>
+    <color name="xhsTheme_colorGrayLevel7_alpha_45">#73FAFAFA</color>
+    <color name="xhsTheme_colorGrayLevel7_alpha_45_night">#730E0E11</color>
+    <color name="xhsTheme_colorGrayLevel7_alpha_5">#0DFAFAFA</color>
+    <color name="xhsTheme_colorGrayLevel7_alpha_50">#80FAFAFA</color>
+    <color name="xhsTheme_colorGrayLevel7_alpha_50_night">#800E0E11</color>
+    <color name="xhsTheme_colorGrayLevel7_alpha_55">#8CFAFAFA</color>
+    <color name="xhsTheme_colorGrayLevel7_alpha_55_night">#8C0E0E11</color>
+    <color name="xhsTheme_colorGrayLevel7_alpha_5_night">#0D0E0E11</color>
+    <color name="xhsTheme_colorGrayLevel7_alpha_60">#99FAFAFA</color>
+    <color name="xhsTheme_colorGrayLevel7_alpha_60_night">#990E0E11</color>
+    <color name="xhsTheme_colorGrayLevel7_alpha_65">#A6FAFAFA</color>
+    <color name="xhsTheme_colorGrayLevel7_alpha_65_night">#A60E0E11</color>
+    <color name="xhsTheme_colorGrayLevel7_alpha_70">#B3FAFAFA</color>
+    <color name="xhsTheme_colorGrayLevel7_alpha_70_night">#B30E0E11</color>
+    <color name="xhsTheme_colorGrayLevel7_alpha_75">#BFFAFAFA</color>
+    <color name="xhsTheme_colorGrayLevel7_alpha_75_night">#BF0E0E11</color>
+    <color name="xhsTheme_colorGrayLevel7_alpha_80">#CCFAFAFA</color>
+    <color name="xhsTheme_colorGrayLevel7_alpha_80_night">#CC0E0E11</color>
+    <color name="xhsTheme_colorGrayLevel7_alpha_85">#D9FAFAFA</color>
+    <color name="xhsTheme_colorGrayLevel7_alpha_85_night">#D90E0E11</color>
+    <color name="xhsTheme_colorGrayLevel7_alpha_90">#E6FAFAFA</color>
+    <color name="xhsTheme_colorGrayLevel7_alpha_90_night">#E60E0E11</color>
+    <color name="xhsTheme_colorGrayLevel7_alpha_95">#F2FAFAFA</color>
+    <color name="xhsTheme_colorGrayLevel7_alpha_95_night">#F20E0E11</color>
+    <color name="xhsTheme_colorGrayLevel7_night">#0E0E11</color>
+    <color name="xhsTheme_colorGrayLevelPatch2">#666666</color>
+    <color name="xhsTheme_colorGrayLevelPatch2_night">#666666</color>
+    <color name="xhsTheme_colorGrayLevelPatch3">#999999</color>
+    <color name="xhsTheme_colorGrayLevelPatch3_night">#999999</color>
+    <color name="xhsTheme_colorGrayPatch1">#333333</color>
+    <color name="xhsTheme_colorGrayPatch1_alpha_0">#00333333</color>
+    <color name="xhsTheme_colorGrayPatch1_alpha_0_night">#00B9BDC6</color>
+    <color name="xhsTheme_colorGrayPatch1_alpha_10">#1A333333</color>
+    <color name="xhsTheme_colorGrayPatch1_alpha_10_night">#1AB9BDC6</color>
+    <color name="xhsTheme_colorGrayPatch1_alpha_15">#26333333</color>
+    <color name="xhsTheme_colorGrayPatch1_alpha_15_night">#26B9BDC6</color>
+    <color name="xhsTheme_colorGrayPatch1_alpha_20">#33333333</color>
+    <color name="xhsTheme_colorGrayPatch1_alpha_20_night">#33B9BDC6</color>
+    <color name="xhsTheme_colorGrayPatch1_alpha_25">#40333333</color>
+    <color name="xhsTheme_colorGrayPatch1_alpha_25_night">#40B9BDC6</color>
+    <color name="xhsTheme_colorGrayPatch1_alpha_30">#4D333333</color>
+    <color name="xhsTheme_colorGrayPatch1_alpha_30_night">#4DB9BDC6</color>
+    <color name="xhsTheme_colorGrayPatch1_alpha_35">#59333333</color>
+    <color name="xhsTheme_colorGrayPatch1_alpha_35_night">#59B9BDC6</color>
+    <color name="xhsTheme_colorGrayPatch1_alpha_40">#66333333</color>
+    <color name="xhsTheme_colorGrayPatch1_alpha_40_night">#66B9BDC6</color>
+    <color name="xhsTheme_colorGrayPatch1_alpha_45">#73333333</color>
+    <color name="xhsTheme_colorGrayPatch1_alpha_45_night">#73B9BDC6</color>
+    <color name="xhsTheme_colorGrayPatch1_alpha_5">#0D333333</color>
+    <color name="xhsTheme_colorGrayPatch1_alpha_50">#80333333</color>
+    <color name="xhsTheme_colorGrayPatch1_alpha_50_night">#80B9BDC6</color>
+    <color name="xhsTheme_colorGrayPatch1_alpha_55">#8C333333</color>
+    <color name="xhsTheme_colorGrayPatch1_alpha_55_night">#8CB9BDC6</color>
+    <color name="xhsTheme_colorGrayPatch1_alpha_5_night">#0DB9BDC6</color>
+    <color name="xhsTheme_colorGrayPatch1_alpha_60">#99333333</color>
+    <color name="xhsTheme_colorGrayPatch1_alpha_60_night">#99B9BDC6</color>
+    <color name="xhsTheme_colorGrayPatch1_alpha_65">#A6333333</color>
+    <color name="xhsTheme_colorGrayPatch1_alpha_65_night">#A6B9BDC6</color>
+    <color name="xhsTheme_colorGrayPatch1_alpha_70">#B3333333</color>
+    <color name="xhsTheme_colorGrayPatch1_alpha_70_night">#B3B9BDC6</color>
+    <color name="xhsTheme_colorGrayPatch1_alpha_75">#BF333333</color>
+    <color name="xhsTheme_colorGrayPatch1_alpha_75_night">#BFB9BDC6</color>
+    <color name="xhsTheme_colorGrayPatch1_alpha_80">#CC333333</color>
+    <color name="xhsTheme_colorGrayPatch1_alpha_80_night">#CCB9BDC6</color>
+    <color name="xhsTheme_colorGrayPatch1_alpha_85">#D9333333</color>
+    <color name="xhsTheme_colorGrayPatch1_alpha_85_night">#D9B9BDC6</color>
+    <color name="xhsTheme_colorGrayPatch1_alpha_90">#E6333333</color>
+    <color name="xhsTheme_colorGrayPatch1_alpha_90_night">#E6B9BDC6</color>
+    <color name="xhsTheme_colorGrayPatch1_alpha_95">#F2333333</color>
+    <color name="xhsTheme_colorGrayPatch1_alpha_95_night">#F2B9BDC6</color>
+    <color name="xhsTheme_colorGrayPatch1_night">#B9BDC6</color>
+    <color name="xhsTheme_colorGrayPatch1_unchanged">#333333</color>
+    <color name="xhsTheme_colorGrayPatch1_unchanged_night">#333333</color>
+    <color name="xhsTheme_colorGrayPatch2">#D5D7DD</color>
+    <color name="xhsTheme_colorGrayPatch2_alpha_0">#00D5D7DD</color>
+    <color name="xhsTheme_colorGrayPatch2_alpha_0_night">#00D5D7DD</color>
+    <color name="xhsTheme_colorGrayPatch2_alpha_10">#1AD5D7DD</color>
+    <color name="xhsTheme_colorGrayPatch2_alpha_10_night">#1AD5D7DD</color>
+    <color name="xhsTheme_colorGrayPatch2_alpha_15">#26D5D7DD</color>
+    <color name="xhsTheme_colorGrayPatch2_alpha_15_night">#26D5D7DD</color>
+    <color name="xhsTheme_colorGrayPatch2_alpha_20">#33D5D7DD</color>
+    <color name="xhsTheme_colorGrayPatch2_alpha_20_night">#33D5D7DD</color>
+    <color name="xhsTheme_colorGrayPatch2_alpha_25">#40D5D7DD</color>
+    <color name="xhsTheme_colorGrayPatch2_alpha_25_night">#40D5D7DD</color>
+    <color name="xhsTheme_colorGrayPatch2_alpha_30">#4DD5D7DD</color>
+    <color name="xhsTheme_colorGrayPatch2_alpha_30_night">#4DD5D7DD</color>
+    <color name="xhsTheme_colorGrayPatch2_alpha_35">#59D5D7DD</color>
+    <color name="xhsTheme_colorGrayPatch2_alpha_35_night">#59D5D7DD</color>
+    <color name="xhsTheme_colorGrayPatch2_alpha_40">#66D5D7DD</color>
+    <color name="xhsTheme_colorGrayPatch2_alpha_40_night">#66D5D7DD</color>
+    <color name="xhsTheme_colorGrayPatch2_alpha_45">#73D5D7DD</color>
+    <color name="xhsTheme_colorGrayPatch2_alpha_45_night">#73D5D7DD</color>
+    <color name="xhsTheme_colorGrayPatch2_alpha_5">#0DD5D7DD</color>
+    <color name="xhsTheme_colorGrayPatch2_alpha_50">#80D5D7DD</color>
+    <color name="xhsTheme_colorGrayPatch2_alpha_50_night">#80D5D7DD</color>
+    <color name="xhsTheme_colorGrayPatch2_alpha_55">#8CD5D7DD</color>
+    <color name="xhsTheme_colorGrayPatch2_alpha_55_night">#8CD5D7DD</color>
+    <color name="xhsTheme_colorGrayPatch2_alpha_5_night">#0DD5D7DD</color>
+    <color name="xhsTheme_colorGrayPatch2_alpha_60">#99D5D7DD</color>
+    <color name="xhsTheme_colorGrayPatch2_alpha_60_night">#99D5D7DD</color>
+    <color name="xhsTheme_colorGrayPatch2_alpha_65">#A6D5D7DD</color>
+    <color name="xhsTheme_colorGrayPatch2_alpha_65_night">#A6D5D7DD</color>
+    <color name="xhsTheme_colorGrayPatch2_alpha_70">#B3D5D7DD</color>
+    <color name="xhsTheme_colorGrayPatch2_alpha_70_night">#B3D5D7DD</color>
+    <color name="xhsTheme_colorGrayPatch2_alpha_75">#BFD5D7DD</color>
+    <color name="xhsTheme_colorGrayPatch2_alpha_75_night">#BFD5D7DD</color>
+    <color name="xhsTheme_colorGrayPatch2_alpha_80">#CCD5D7DD</color>
+    <color name="xhsTheme_colorGrayPatch2_alpha_80_night">#CCD5D7DD</color>
+    <color name="xhsTheme_colorGrayPatch2_alpha_85">#D9D5D7DD</color>
+    <color name="xhsTheme_colorGrayPatch2_alpha_85_night">#D9D5D7DD</color>
+    <color name="xhsTheme_colorGrayPatch2_alpha_90">#E6D5D7DD</color>
+    <color name="xhsTheme_colorGrayPatch2_alpha_90_night">#E6D5D7DD</color>
+    <color name="xhsTheme_colorGrayPatch2_alpha_95">#F2D5D7DD</color>
+    <color name="xhsTheme_colorGrayPatch2_alpha_95_night">#F2D5D7DD</color>
+    <color name="xhsTheme_colorGrayPatch2_night">#D5D7DD</color>
+    <color name="xhsTheme_colorGrayPatch3">#F5F5F5</color>
+    <color name="xhsTheme_colorGrayPatch3_alpha_0">#00F5F5F5</color>
+    <color name="xhsTheme_colorGrayPatch3_alpha_0_night">#000E0E11</color>
+    <color name="xhsTheme_colorGrayPatch3_alpha_10">#1AF5F5F5</color>
+    <color name="xhsTheme_colorGrayPatch3_alpha_10_night">#1A0E0E11</color>
+    <color name="xhsTheme_colorGrayPatch3_alpha_15">#26F5F5F5</color>
+    <color name="xhsTheme_colorGrayPatch3_alpha_15_night">#260E0E11</color>
+    <color name="xhsTheme_colorGrayPatch3_alpha_20">#33F5F5F5</color>
+    <color name="xhsTheme_colorGrayPatch3_alpha_20_night">#330E0E11</color>
+    <color name="xhsTheme_colorGrayPatch3_alpha_25">#40F5F5F5</color>
+    <color name="xhsTheme_colorGrayPatch3_alpha_25_night">#400E0E11</color>
+    <color name="xhsTheme_colorGrayPatch3_alpha_30">#4DF5F5F5</color>
+    <color name="xhsTheme_colorGrayPatch3_alpha_30_night">#4D0E0E11</color>
+    <color name="xhsTheme_colorGrayPatch3_alpha_35">#59F5F5F5</color>
+    <color name="xhsTheme_colorGrayPatch3_alpha_35_night">#590E0E11</color>
+    <color name="xhsTheme_colorGrayPatch3_alpha_40">#66F5F5F5</color>
+    <color name="xhsTheme_colorGrayPatch3_alpha_40_night">#660E0E11</color>
+    <color name="xhsTheme_colorGrayPatch3_alpha_45">#73F5F5F5</color>
+    <color name="xhsTheme_colorGrayPatch3_alpha_45_night">#730E0E11</color>
+    <color name="xhsTheme_colorGrayPatch3_alpha_5">#0DF5F5F5</color>
+    <color name="xhsTheme_colorGrayPatch3_alpha_50">#80F5F5F5</color>
+    <color name="xhsTheme_colorGrayPatch3_alpha_50_night">#800E0E11</color>
+    <color name="xhsTheme_colorGrayPatch3_alpha_55">#8CF5F5F5</color>
+    <color name="xhsTheme_colorGrayPatch3_alpha_55_night">#8C0E0E11</color>
+    <color name="xhsTheme_colorGrayPatch3_alpha_5_night">#0D0E0E11</color>
+    <color name="xhsTheme_colorGrayPatch3_alpha_60">#99F5F5F5</color>
+    <color name="xhsTheme_colorGrayPatch3_alpha_60_night">#990E0E11</color>
+    <color name="xhsTheme_colorGrayPatch3_alpha_65">#A6F5F5F5</color>
+    <color name="xhsTheme_colorGrayPatch3_alpha_65_night">#A60E0E11</color>
+    <color name="xhsTheme_colorGrayPatch3_alpha_70">#B3F5F5F5</color>
+    <color name="xhsTheme_colorGrayPatch3_alpha_70_night">#B30E0E11</color>
+    <color name="xhsTheme_colorGrayPatch3_alpha_75">#BFF5F5F5</color>
+    <color name="xhsTheme_colorGrayPatch3_alpha_75_night">#BF0E0E11</color>
+    <color name="xhsTheme_colorGrayPatch3_alpha_80">#CCF5F5F5</color>
+    <color name="xhsTheme_colorGrayPatch3_alpha_80_night">#CC0E0E11</color>
+    <color name="xhsTheme_colorGrayPatch3_alpha_85">#D9F5F5F5</color>
+    <color name="xhsTheme_colorGrayPatch3_alpha_85_night">#D90E0E11</color>
+    <color name="xhsTheme_colorGrayPatch3_alpha_90">#E6F5F5F5</color>
+    <color name="xhsTheme_colorGrayPatch3_alpha_90_night">#E60E0E11</color>
+    <color name="xhsTheme_colorGrayPatch3_alpha_95">#F2F5F5F5</color>
+    <color name="xhsTheme_colorGrayPatch3_alpha_95_night">#F20E0E11</color>
+    <color name="xhsTheme_colorGrayPatch3_night">#0E0E11</color>
+    <color name="xhsTheme_colorGreen100">#3330da6a</color>
+    <color name="xhsTheme_colorGreen100_night">#3336e271</color>
+    <color name="xhsTheme_colorGreen200">#6630da6a</color>
+    <color name="xhsTheme_colorGreen200_night">#6636e271</color>
+    <color name="xhsTheme_colorGreen400">#FF30da6a</color>
+    <color name="xhsTheme_colorGreen400_night">#FF36e271</color>
+    <color name="xhsTheme_colorGreen50">#1A30da6a</color>
+    <color name="xhsTheme_colorGreen50_night">#1A36e271</color>
+    <color name="xhsTheme_colorGreenPath1">#42C9A0</color>
+    <color name="xhsTheme_colorGreenPath1_night">#42C9A0</color>
+    <color name="xhsTheme_colorLightBlue">#59C4FF</color>
+    <color name="xhsTheme_colorLightBlue_night">#59C4FF</color>
+    <color name="xhsTheme_colorNaviBlue">#5B92E1</color>
+    <color name="xhsTheme_colorNaviBluePatch">#5B92E1</color>
+    <color name="xhsTheme_colorNaviBluePatch_night">#5B92E1</color>
+    <color name="xhsTheme_colorNaviBlue_alpha_0">#003D8AF5</color>
+    <color name="xhsTheme_colorNaviBlue_alpha_0_night">#003D8AF5</color>
+    <color name="xhsTheme_colorNaviBlue_alpha_10">#1A3D8AF5</color>
+    <color name="xhsTheme_colorNaviBlue_alpha_10_night">#1A3D8AF5</color>
+    <color name="xhsTheme_colorNaviBlue_alpha_15">#263D8AF5</color>
+    <color name="xhsTheme_colorNaviBlue_alpha_15_night">#263D8AF5</color>
+    <color name="xhsTheme_colorNaviBlue_alpha_20">#333D8AF5</color>
+    <color name="xhsTheme_colorNaviBlue_alpha_20_night">#333D8AF5</color>
+    <color name="xhsTheme_colorNaviBlue_alpha_25">#403D8AF5</color>
+    <color name="xhsTheme_colorNaviBlue_alpha_25_night">#403D8AF5</color>
+    <color name="xhsTheme_colorNaviBlue_alpha_30">#4D3D8AF5</color>
+    <color name="xhsTheme_colorNaviBlue_alpha_30_night">#4D3D8AF5</color>
+    <color name="xhsTheme_colorNaviBlue_alpha_35">#593D8AF5</color>
+    <color name="xhsTheme_colorNaviBlue_alpha_35_night">#593D8AF5</color>
+    <color name="xhsTheme_colorNaviBlue_alpha_40">#663D8AF5</color>
+    <color name="xhsTheme_colorNaviBlue_alpha_40_night">#663D8AF5</color>
+    <color name="xhsTheme_colorNaviBlue_alpha_45">#733D8AF5</color>
+    <color name="xhsTheme_colorNaviBlue_alpha_45_night">#733D8AF5</color>
+    <color name="xhsTheme_colorNaviBlue_alpha_5">#0D3D8AF5</color>
+    <color name="xhsTheme_colorNaviBlue_alpha_50">#803D8AF5</color>
+    <color name="xhsTheme_colorNaviBlue_alpha_50_night">#803D8AF5</color>
+    <color name="xhsTheme_colorNaviBlue_alpha_55">#8C3D8AF5</color>
+    <color name="xhsTheme_colorNaviBlue_alpha_55_night">#8C3D8AF5</color>
+    <color name="xhsTheme_colorNaviBlue_alpha_5_night">#0D3D8AF5</color>
+    <color name="xhsTheme_colorNaviBlue_alpha_60">#993D8AF5</color>
+    <color name="xhsTheme_colorNaviBlue_alpha_60_night">#993D8AF5</color>
+    <color name="xhsTheme_colorNaviBlue_alpha_65">#A63D8AF5</color>
+    <color name="xhsTheme_colorNaviBlue_alpha_65_night">#A63D8AF5</color>
+    <color name="xhsTheme_colorNaviBlue_alpha_70">#B33D8AF5</color>
+    <color name="xhsTheme_colorNaviBlue_alpha_70_night">#B33D8AF5</color>
+    <color name="xhsTheme_colorNaviBlue_alpha_75">#BF3D8AF5</color>
+    <color name="xhsTheme_colorNaviBlue_alpha_75_night">#BF3D8AF5</color>
+    <color name="xhsTheme_colorNaviBlue_alpha_80">#CC3D8AF5</color>
+    <color name="xhsTheme_colorNaviBlue_alpha_80_night">#CC3D8AF5</color>
+    <color name="xhsTheme_colorNaviBlue_alpha_85">#D93D8AF5</color>
+    <color name="xhsTheme_colorNaviBlue_alpha_85_night">#D93D8AF5</color>
+    <color name="xhsTheme_colorNaviBlue_alpha_90">#E63D8AF5</color>
+    <color name="xhsTheme_colorNaviBlue_alpha_90_night">#E63D8AF5</color>
+    <color name="xhsTheme_colorNaviBlue_alpha_95">#F23D8AF5</color>
+    <color name="xhsTheme_colorNaviBlue_alpha_95_night">#F23D8AF5</color>
+    <color name="xhsTheme_colorNaviBlue_night">#3D8AF5</color>
+    <color name="xhsTheme_colorOrange100">#33ff9635</color>
+    <color name="xhsTheme_colorOrange100_night">#33ff9e3d</color>
+    <color name="xhsTheme_colorOrange200">#66ff9635</color>
+    <color name="xhsTheme_colorOrange200_night">#66ff9e3d</color>
+    <color name="xhsTheme_colorOrange400">#FFff9635</color>
+    <color name="xhsTheme_colorOrange400_night">#FFff9e3d</color>
+    <color name="xhsTheme_colorOrange50">#1Aff9635</color>
+    <color name="xhsTheme_colorOrange50_night">#1Aff9e3d</color>
+    <color name="xhsTheme_colorOrangePath1">#FF8A4C</color>
+    <color name="xhsTheme_colorOrangePath1_night">#FF8A4C</color>
+    <color name="xhsTheme_colorRed">#FF2442</color>
+    <color name="xhsTheme_colorRed100">#33ff2442</color>
+    <color name="xhsTheme_colorRed100_night">#33ff2e4d</color>
+    <color name="xhsTheme_colorRed200">#66ff2442</color>
+    <color name="xhsTheme_colorRed200_night">#66ff2e4d</color>
+    <color name="xhsTheme_colorRed400">#FFff2442</color>
+    <color name="xhsTheme_colorRed400_night">#FFff2e4d</color>
+    <color name="xhsTheme_colorRed50">#1Aff2442</color>
+    <color name="xhsTheme_colorRed50_night">#1Aff2e4d</color>
+    <color name="xhsTheme_colorRedPath1">#FF7084</color>
+    <color name="xhsTheme_colorRedPath1_night">#FF7084</color>
+    <color name="xhsTheme_colorRed_alpha_0">#00FF2442</color>
+    <color name="xhsTheme_colorRed_alpha_0_night">#00FF2442</color>
+    <color name="xhsTheme_colorRed_alpha_10">#1AFF2442</color>
+    <color name="xhsTheme_colorRed_alpha_10_night">#1AFF2442</color>
+    <color name="xhsTheme_colorRed_alpha_15">#26FF2442</color>
+    <color name="xhsTheme_colorRed_alpha_15_night">#26FF2442</color>
+    <color name="xhsTheme_colorRed_alpha_20">#33FF2442</color>
+    <color name="xhsTheme_colorRed_alpha_20_night">#33FF2442</color>
+    <color name="xhsTheme_colorRed_alpha_25">#40FF2442</color>
+    <color name="xhsTheme_colorRed_alpha_25_night">#40FF2442</color>
+    <color name="xhsTheme_colorRed_alpha_30">#4DFF2442</color>
+    <color name="xhsTheme_colorRed_alpha_30_night">#4DFF2442</color>
+    <color name="xhsTheme_colorRed_alpha_35">#59FF2442</color>
+    <color name="xhsTheme_colorRed_alpha_35_night">#59FF2442</color>
+    <color name="xhsTheme_colorRed_alpha_40">#66FF2442</color>
+    <color name="xhsTheme_colorRed_alpha_40_night">#66FF2442</color>
+    <color name="xhsTheme_colorRed_alpha_45">#73FF2442</color>
+    <color name="xhsTheme_colorRed_alpha_45_night">#73FF2442</color>
+    <color name="xhsTheme_colorRed_alpha_5">#0DFF2442</color>
+    <color name="xhsTheme_colorRed_alpha_50">#80FF2442</color>
+    <color name="xhsTheme_colorRed_alpha_50_night">#80FF2442</color>
+    <color name="xhsTheme_colorRed_alpha_55">#8CFF2442</color>
+    <color name="xhsTheme_colorRed_alpha_55_night">#8CFF2442</color>
+    <color name="xhsTheme_colorRed_alpha_5_night">#0DFF2442</color>
+    <color name="xhsTheme_colorRed_alpha_60">#99FF2442</color>
+    <color name="xhsTheme_colorRed_alpha_60_night">#99FF2442</color>
+    <color name="xhsTheme_colorRed_alpha_65">#A6FF2442</color>
+    <color name="xhsTheme_colorRed_alpha_65_night">#A6FF2442</color>
+    <color name="xhsTheme_colorRed_alpha_70">#B3FF2442</color>
+    <color name="xhsTheme_colorRed_alpha_70_night">#B3FF2442</color>
+    <color name="xhsTheme_colorRed_alpha_75">#BFFF2442</color>
+    <color name="xhsTheme_colorRed_alpha_75_night">#BFFF2442</color>
+    <color name="xhsTheme_colorRed_alpha_80">#CCFF2442</color>
+    <color name="xhsTheme_colorRed_alpha_80_night">#CCFF2442</color>
+    <color name="xhsTheme_colorRed_alpha_85">#D9FF2442</color>
+    <color name="xhsTheme_colorRed_alpha_85_night">#D9FF2442</color>
+    <color name="xhsTheme_colorRed_alpha_90">#E6FF2442</color>
+    <color name="xhsTheme_colorRed_alpha_90_night">#E6FF2442</color>
+    <color name="xhsTheme_colorRed_alpha_95">#F2FF2442</color>
+    <color name="xhsTheme_colorRed_alpha_95_night">#F2FF2442</color>
+    <color name="xhsTheme_colorRed_night">#FF2442</color>
+    <color name="xhsTheme_colorSurfaceBackground">#FFFAFAFA</color>
+    <color name="xhsTheme_colorSurfaceBackground_night">#FF000000</color>
+    <color name="xhsTheme_colorSurfaceForeground">#FFFFFFFF</color>
+    <color name="xhsTheme_colorSurfaceForeground_night">#FF0a0a0a</color>
+    <color name="xhsTheme_colorTransparent">@android:color/transparent</color>
+    <color name="xhsTheme_colorTransparent_night">@android:color/transparent</color>
+    <color name="xhsTheme_colorWhite">#FFFFFF</color>
+    <color name="xhsTheme_colorWhitePatch1">#FFFFFF</color>
+    <color name="xhsTheme_colorWhitePatch1_alpha_0">#00FFFFFF</color>
+    <color name="xhsTheme_colorWhitePatch1_alpha_0_night">#00FFFFFF</color>
+    <color name="xhsTheme_colorWhitePatch1_alpha_10">#1AFFFFFF</color>
+    <color name="xhsTheme_colorWhitePatch1_alpha_10_night">#1AFFFFFF</color>
+    <color name="xhsTheme_colorWhitePatch1_alpha_15">#26FFFFFF</color>
+    <color name="xhsTheme_colorWhitePatch1_alpha_15_night">#26FFFFFF</color>
+    <color name="xhsTheme_colorWhitePatch1_alpha_20">#33FFFFFF</color>
+    <color name="xhsTheme_colorWhitePatch1_alpha_20_night">#33FFFFFF</color>
+    <color name="xhsTheme_colorWhitePatch1_alpha_25">#40FFFFFF</color>
+    <color name="xhsTheme_colorWhitePatch1_alpha_25_night">#40FFFFFF</color>
+    <color name="xhsTheme_colorWhitePatch1_alpha_30">#4DFFFFFF</color>
+    <color name="xhsTheme_colorWhitePatch1_alpha_30_night">#4DFFFFFF</color>
+    <color name="xhsTheme_colorWhitePatch1_alpha_35">#59FFFFFF</color>
+    <color name="xhsTheme_colorWhitePatch1_alpha_35_night">#59FFFFFF</color>
+    <color name="xhsTheme_colorWhitePatch1_alpha_40">#66FFFFFF</color>
+    <color name="xhsTheme_colorWhitePatch1_alpha_40_night">#66FFFFFF</color>
+    <color name="xhsTheme_colorWhitePatch1_alpha_45">#73FFFFFF</color>
+    <color name="xhsTheme_colorWhitePatch1_alpha_45_night">#73FFFFFF</color>
+    <color name="xhsTheme_colorWhitePatch1_alpha_5">#0DFFFFFF</color>
+    <color name="xhsTheme_colorWhitePatch1_alpha_50">#80FFFFFF</color>
+    <color name="xhsTheme_colorWhitePatch1_alpha_50_night">#80FFFFFF</color>
+    <color name="xhsTheme_colorWhitePatch1_alpha_55">#8CFFFFFF</color>
+    <color name="xhsTheme_colorWhitePatch1_alpha_55_night">#8CFFFFFF</color>
+    <color name="xhsTheme_colorWhitePatch1_alpha_5_night">#0DFFFFFF</color>
+    <color name="xhsTheme_colorWhitePatch1_alpha_60">#99FFFFFF</color>
+    <color name="xhsTheme_colorWhitePatch1_alpha_60_night">#99FFFFFF</color>
+    <color name="xhsTheme_colorWhitePatch1_alpha_65">#A6FFFFFF</color>
+    <color name="xhsTheme_colorWhitePatch1_alpha_65_night">#A6FFFFFF</color>
+    <color name="xhsTheme_colorWhitePatch1_alpha_70">#B3FFFFFF</color>
+    <color name="xhsTheme_colorWhitePatch1_alpha_70_night">#B3FFFFFF</color>
+    <color name="xhsTheme_colorWhitePatch1_alpha_75">#BFFFFFFF</color>
+    <color name="xhsTheme_colorWhitePatch1_alpha_75_night">#BFFFFFFF</color>
+    <color name="xhsTheme_colorWhitePatch1_alpha_80">#CCFFFFFF</color>
+    <color name="xhsTheme_colorWhitePatch1_alpha_80_night">#CCFFFFFF</color>
+    <color name="xhsTheme_colorWhitePatch1_alpha_85">#D9FFFFFF</color>
+    <color name="xhsTheme_colorWhitePatch1_alpha_85_night">#D9FFFFFF</color>
+    <color name="xhsTheme_colorWhitePatch1_alpha_90">#E6FFFFFF</color>
+    <color name="xhsTheme_colorWhitePatch1_alpha_90_night">#E6FFFFFF</color>
+    <color name="xhsTheme_colorWhitePatch1_alpha_95">#F2FFFFFF</color>
+    <color name="xhsTheme_colorWhitePatch1_alpha_95_night">#F2FFFFFF</color>
+    <color name="xhsTheme_colorWhitePatch1_night">#FFFFFF</color>
+    <color name="xhsTheme_colorWhite_alpha_0">#00FFFFFF</color>
+    <color name="xhsTheme_colorWhite_alpha_0_night">#0019191F</color>
+    <color name="xhsTheme_colorWhite_alpha_10">#1AFFFFFF</color>
+    <color name="xhsTheme_colorWhite_alpha_10_night">#1A19191F</color>
+    <color name="xhsTheme_colorWhite_alpha_15">#26FFFFFF</color>
+    <color name="xhsTheme_colorWhite_alpha_15_night">#2619191F</color>
+    <color name="xhsTheme_colorWhite_alpha_20">#33FFFFFF</color>
+    <color name="xhsTheme_colorWhite_alpha_20_night">#3319191F</color>
+    <color name="xhsTheme_colorWhite_alpha_25">#40FFFFFF</color>
+    <color name="xhsTheme_colorWhite_alpha_25_night">#4019191F</color>
+    <color name="xhsTheme_colorWhite_alpha_30">#4DFFFFFF</color>
+    <color name="xhsTheme_colorWhite_alpha_30_night">#4D19191F</color>
+    <color name="xhsTheme_colorWhite_alpha_35">#59FFFFFF</color>
+    <color name="xhsTheme_colorWhite_alpha_35_night">#5919191F</color>
+    <color name="xhsTheme_colorWhite_alpha_40">#66FFFFFF</color>
+    <color name="xhsTheme_colorWhite_alpha_40_night">#6619191F</color>
+    <color name="xhsTheme_colorWhite_alpha_45">#73FFFFFF</color>
+    <color name="xhsTheme_colorWhite_alpha_45_night">#7319191F</color>
+    <color name="xhsTheme_colorWhite_alpha_5">#0DFFFFFF</color>
+    <color name="xhsTheme_colorWhite_alpha_50">#80FFFFFF</color>
+    <color name="xhsTheme_colorWhite_alpha_50_night">#8019191F</color>
+    <color name="xhsTheme_colorWhite_alpha_55">#8CFFFFFF</color>
+    <color name="xhsTheme_colorWhite_alpha_55_night">#8C19191F</color>
+    <color name="xhsTheme_colorWhite_alpha_5_night">#0D19191F</color>
+    <color name="xhsTheme_colorWhite_alpha_60">#99FFFFFF</color>
+    <color name="xhsTheme_colorWhite_alpha_60_night">#9919191F</color>
+    <color name="xhsTheme_colorWhite_alpha_65">#A6FFFFFF</color>
+    <color name="xhsTheme_colorWhite_alpha_65_night">#A619191F</color>
+    <color name="xhsTheme_colorWhite_alpha_70">#B3FFFFFF</color>
+    <color name="xhsTheme_colorWhite_alpha_70_night">#B319191F</color>
+    <color name="xhsTheme_colorWhite_alpha_75">#BFFFFFFF</color>
+    <color name="xhsTheme_colorWhite_alpha_75_night">#BF19191F</color>
+    <color name="xhsTheme_colorWhite_alpha_80">#CCFFFFFF</color>
+    <color name="xhsTheme_colorWhite_alpha_80_night">#CC19191F</color>
+    <color name="xhsTheme_colorWhite_alpha_85">#D9FFFFFF</color>
+    <color name="xhsTheme_colorWhite_alpha_85_night">#D919191F</color>
+    <color name="xhsTheme_colorWhite_alpha_90">#E6FFFFFF</color>
+    <color name="xhsTheme_colorWhite_alpha_90_night">#E619191F</color>
+    <color name="xhsTheme_colorWhite_alpha_95">#F2FFFFFF</color>
+    <color name="xhsTheme_colorWhite_alpha_95_night">#F219191F</color>
+    <color name="xhsTheme_colorWhite_night">#19191F</color>
+    <color name="xhsTheme_colorYellow">#FCBD54</color>
+    <color name="xhsTheme_colorYellow100">#40ffe900</color>
+    <color name="xhsTheme_colorYellow100_night">#40fff200</color>
+    <color name="xhsTheme_colorYellow200">#66ffe900</color>
+    <color name="xhsTheme_colorYellow200_night">#66fff200</color>
+    <color name="xhsTheme_colorYellow400">#FFffe900</color>
+    <color name="xhsTheme_colorYellow400_night">#FFfff200</color>
+    <color name="xhsTheme_colorYellow50">#21ffe900</color>
+    <color name="xhsTheme_colorYellow50_night">#21fff200</color>
+    <color name="xhsTheme_colorYellow_alpha_0">#00FCBD54</color>
+    <color name="xhsTheme_colorYellow_alpha_0_night">#00FCBD54</color>
+    <color name="xhsTheme_colorYellow_alpha_10">#1AFCBD54</color>
+    <color name="xhsTheme_colorYellow_alpha_10_night">#1AFCBD54</color>
+    <color name="xhsTheme_colorYellow_alpha_15">#26FCBD54</color>
+    <color name="xhsTheme_colorYellow_alpha_15_night">#26FCBD54</color>
+    <color name="xhsTheme_colorYellow_alpha_20">#33FCBD54</color>
+    <color name="xhsTheme_colorYellow_alpha_20_night">#33FCBD54</color>
+    <color name="xhsTheme_colorYellow_alpha_25">#40FCBD54</color>
+    <color name="xhsTheme_colorYellow_alpha_25_night">#40FCBD54</color>
+    <color name="xhsTheme_colorYellow_alpha_30">#4DFCBD54</color>
+    <color name="xhsTheme_colorYellow_alpha_30_night">#4DFCBD54</color>
+    <color name="xhsTheme_colorYellow_alpha_35">#59FCBD54</color>
+    <color name="xhsTheme_colorYellow_alpha_35_night">#59FCBD54</color>
+    <color name="xhsTheme_colorYellow_alpha_40">#66FCBD54</color>
+    <color name="xhsTheme_colorYellow_alpha_40_night">#66FCBD54</color>
+    <color name="xhsTheme_colorYellow_alpha_45">#73FCBD54</color>
+    <color name="xhsTheme_colorYellow_alpha_45_night">#73FCBD54</color>
+    <color name="xhsTheme_colorYellow_alpha_5">#0DFCBD54</color>
+    <color name="xhsTheme_colorYellow_alpha_50">#80FCBD54</color>
+    <color name="xhsTheme_colorYellow_alpha_50_night">#80FCBD54</color>
+    <color name="xhsTheme_colorYellow_alpha_55">#8CFCBD54</color>
+    <color name="xhsTheme_colorYellow_alpha_55_night">#8CFCBD54</color>
+    <color name="xhsTheme_colorYellow_alpha_5_night">#0DFCBD54</color>
+    <color name="xhsTheme_colorYellow_alpha_60">#99FCBD54</color>
+    <color name="xhsTheme_colorYellow_alpha_60_night">#99FCBD54</color>
+    <color name="xhsTheme_colorYellow_alpha_65">#A6FCBD54</color>
+    <color name="xhsTheme_colorYellow_alpha_65_night">#A6FCBD54</color>
+    <color name="xhsTheme_colorYellow_alpha_70">#B3FCBD54</color>
+    <color name="xhsTheme_colorYellow_alpha_70_night">#B3FCBD54</color>
+    <color name="xhsTheme_colorYellow_alpha_75">#BFFCBD54</color>
+    <color name="xhsTheme_colorYellow_alpha_75_night">#BFFCBD54</color>
+    <color name="xhsTheme_colorYellow_alpha_80">#CCFCBD54</color>
+    <color name="xhsTheme_colorYellow_alpha_80_night">#CCFCBD54</color>
+    <color name="xhsTheme_colorYellow_alpha_85">#D9FCBD54</color>
+    <color name="xhsTheme_colorYellow_alpha_85_night">#D9FCBD54</color>
+    <color name="xhsTheme_colorYellow_alpha_90">#E6FCBD54</color>
+    <color name="xhsTheme_colorYellow_alpha_90_night">#E6FCBD54</color>
+    <color name="xhsTheme_colorYellow_alpha_95">#F2FCBD54</color>
+    <color name="xhsTheme_colorYellow_alpha_95_night">#F2FCBD54</color>
+    <color name="xhsTheme_colorYellow_night">#FCBD54</color>
+    <color name="xhswebview_litte_red">#EF3B4F</color>
+    <color name="xhswebview_litte_red_night">#EF3B4F</color>
+    <declare-styleable name="TextDrawable">
+        <attr format="reference" name="leftDrawable"/>
+        <attr format="dimension" name="leftDrawableWidth"/>
+        <attr format="dimension" name="leftDrawableHeight"/>
+        <attr format="reference" name="rightDrawable"/>
+        <attr format="dimension" name="rightDrawableWidth"/>
+        <attr format="dimension" name="rightDrawableHeight"/>
+        <attr format="reference" name="topDrawable"/>
+        <attr format="dimension" name="topDrawableWidth"/>
+        <attr format="dimension" name="topDrawableHeight"/>
+        <attr format="reference" name="bottomDrawable"/>
+        <attr format="dimension" name="bottomDrawableWidth"/>
+        <attr format="dimension" name="bottomDrawableHeight"/>
+    </declare-styleable>
+    <declare-styleable name="XhsThemeSkin">
+        <attr format="string" name="xhs_theme_skin_background"/>
+        <attr format="string" name="xhs_theme_skin_text_color"/>
+        <attr format="string" name="xhs_theme_skin_second_text_color"/>
+        <attr format="string" name="xhs_theme_skin_src"/>
+        <attr format="string" name="xhs_theme_skin_text_color_hint"/>
+    </declare-styleable>
+    <declare-styleable name="XhsThemeSwipeBackLayout">
+        <attr format="dimension" name="xhs_theme_edge_size"/>
+        <attr name="xhs_theme_edge_flag">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+            <enum name="bottom" value="2"/>
+            <enum name="all" value="3"/>
+        </attr>
+        <attr format="reference" name="xhs_theme_shadow_left"/>
+        <attr format="reference" name="xhs_theme_shadow_right"/>
+        <attr format="reference" name="xhs_theme_shadow_bottom"/>
+    </declare-styleable>
+    <declare-styleable name="xhsThemeFollowButton">
+        <attr format="enum" name="xhsThemeFollowBackgroundShape">
+            <enum name="solidRed" value="0"/>
+            <enum name="hollowRed" value="1"/>
+            <enum name="hollowGrey" value="2"/>
+            <enum name="hollowWhite" value="3"/>
+            <enum name="hollowGreyPersonal" value="4"/>
+        </attr>
+        <attr format="enum" name="xhsThemeFollowTextColor">
+            <enum name="white" value="0"/>
+            <enum name="red" value="1"/>
+            <enum name="grey" value="2"/>
+            <enum name="greyPersonal" value="3"/>
+
+        </attr>
+        <attr format="enum" name="xhsThemeFollowHeight">
+            <enum name="small" value="20"/>
+            <enum name="normal" value="26"/>
+            <enum name="large" value="28"/>
+        </attr>
+        <attr format="enum" name="xhsThemeFollowWidth">
+            <enum name="normal" value="56"/>
+            <enum name="large" value="110"/>
+            <enum name="xLarge" value="120"/>
+            <enum name="xxLarge" value="128"/>
+        </attr>
+        <attr format="enum" name="xhsThemeFollowText">
+            <enum name="follow" value="0"/>
+            <enum name="followed" value="1"/>
+            <enum name="privateMessage" value="2"/>
+        </attr>
+
+        <attr format="boolean" name="xhsThemeStrictModel"/>
+
+        <attr format="enum" name="xhsThemeFollowStyle">
+            <enum name="follow01" value="10"/>
+            <enum name="followed01" value="11"/>
+
+            <enum name="follow02" value="20"/>
+            <enum name="followed02" value="21"/>
+
+            <enum name="follow03" value="30"/>
+            <enum name="followed03" value="31"/>
+
+            <enum name="follow04" value="40"/>
+            <enum name="followed04" value="41"/>
+
+            <enum name="follow05" value="50"/>
+            <enum name="followed05" value="51"/>
+
+            <enum name="follow06" value="60"/>
+            <enum name="followed06" value="61"/>
+
+            <enum name="follow07" value="70"/>
+            <enum name="followed07" value="71"/>
+        </attr>
+    </declare-styleable>
+    <dimen name="xhs_theme_activity_horizontal_margin">16dp</dimen>
+    <dimen name="xhs_theme_activity_vertical_margin">16dp</dimen>
+    <dimen name="xhs_theme_common_bar_height">@dimen/xhs_theme_dimension_50</dimen>
+    <dimen name="xhs_theme_dimension_0">0dp</dimen>
+    <dimen name="xhs_theme_dimension_0_5">0.5dp</dimen>
+    <dimen name="xhs_theme_dimension_1">1dp</dimen>
+    <dimen name="xhs_theme_dimension_10">10dp</dimen>
+    <dimen name="xhs_theme_dimension_100">100dp</dimen>
+    <dimen name="xhs_theme_dimension_101">101dp</dimen>
+    <dimen name="xhs_theme_dimension_102">102dp</dimen>
+    <dimen name="xhs_theme_dimension_103">103dp</dimen>
+    <dimen name="xhs_theme_dimension_104">104dp</dimen>
+    <dimen name="xhs_theme_dimension_105">105dp</dimen>
+    <dimen name="xhs_theme_dimension_106">106dp</dimen>
+    <dimen name="xhs_theme_dimension_107">107dp</dimen>
+    <dimen name="xhs_theme_dimension_108">108dp</dimen>
+    <dimen name="xhs_theme_dimension_109">109dp</dimen>
+    <dimen name="xhs_theme_dimension_11">11dp</dimen>
+    <dimen name="xhs_theme_dimension_110">110dp</dimen>
+    <dimen name="xhs_theme_dimension_111">111dp</dimen>
+    <dimen name="xhs_theme_dimension_116">116dp</dimen>
+    <dimen name="xhs_theme_dimension_117">117dp</dimen>
+    <dimen name="xhs_theme_dimension_12">12dp</dimen>
+    <dimen name="xhs_theme_dimension_120">120dp</dimen>
+    <dimen name="xhs_theme_dimension_128">128dp</dimen>
+    <dimen name="xhs_theme_dimension_13">13dp</dimen>
+    <dimen name="xhs_theme_dimension_130">130dp</dimen>
+    <dimen name="xhs_theme_dimension_135">135dp</dimen>
+    <dimen name="xhs_theme_dimension_136">136dp</dimen>
+    <dimen name="xhs_theme_dimension_137">137dp</dimen>
+    <dimen name="xhs_theme_dimension_14">14dp</dimen>
+    <dimen name="xhs_theme_dimension_140">140dp</dimen>
+    <dimen name="xhs_theme_dimension_145">145dp</dimen>
+    <dimen name="xhs_theme_dimension_15">15dp</dimen>
+    <dimen name="xhs_theme_dimension_150">150dp</dimen>
+    <dimen name="xhs_theme_dimension_151">151dp</dimen>
+    <dimen name="xhs_theme_dimension_154">154dp</dimen>
+    <dimen name="xhs_theme_dimension_16">16dp</dimen>
+    <dimen name="xhs_theme_dimension_160">160dp</dimen>
+    <dimen name="xhs_theme_dimension_165">165dp</dimen>
+    <dimen name="xhs_theme_dimension_168">168dp</dimen>
+    <dimen name="xhs_theme_dimension_17">17dp</dimen>
+    <dimen name="xhs_theme_dimension_18">18dp</dimen>
+    <dimen name="xhs_theme_dimension_180">180dp</dimen>
+    <dimen name="xhs_theme_dimension_185">185dp</dimen>
+    <dimen name="xhs_theme_dimension_188">188dp</dimen>
+    <dimen name="xhs_theme_dimension_19">19dp</dimen>
+    <dimen name="xhs_theme_dimension_193">193dp</dimen>
+    <dimen name="xhs_theme_dimension_198">198dp</dimen>
+    <dimen name="xhs_theme_dimension_1_5">1.5dp</dimen>
+    <dimen name="xhs_theme_dimension_2">2dp</dimen>
+    <dimen name="xhs_theme_dimension_20">20dp</dimen>
+    <dimen name="xhs_theme_dimension_200">200dp</dimen>
+    <dimen name="xhs_theme_dimension_21">21dp</dimen>
+    <dimen name="xhs_theme_dimension_210">210dp</dimen>
+    <dimen name="xhs_theme_dimension_214">214dp</dimen>
+    <dimen name="xhs_theme_dimension_215">215dp</dimen>
+    <dimen name="xhs_theme_dimension_22">22dp</dimen>
+    <dimen name="xhs_theme_dimension_220">220dp</dimen>
+    <dimen name="xhs_theme_dimension_225">225dp</dimen>
+    <dimen name="xhs_theme_dimension_227">227dp</dimen>
+    <dimen name="xhs_theme_dimension_23">23dp</dimen>
+    <dimen name="xhs_theme_dimension_230">230dp</dimen>
+    <dimen name="xhs_theme_dimension_235">235dp</dimen>
+    <dimen name="xhs_theme_dimension_237">237dp</dimen>
+    <dimen name="xhs_theme_dimension_24">24dp</dimen>
+    <dimen name="xhs_theme_dimension_240">240dp</dimen>
+    <dimen name="xhs_theme_dimension_247">247dp</dimen>
+    <dimen name="xhs_theme_dimension_25">25dp</dimen>
+    <dimen name="xhs_theme_dimension_250">250dp</dimen>
+    <dimen name="xhs_theme_dimension_256">256dp</dimen>
+    <dimen name="xhs_theme_dimension_26">26dp</dimen>
+    <dimen name="xhs_theme_dimension_265">265dp</dimen>
+    <dimen name="xhs_theme_dimension_266">266dp</dimen>
+    <dimen name="xhs_theme_dimension_27">27dp</dimen>
+    <dimen name="xhs_theme_dimension_270">270dp</dimen>
+    <dimen name="xhs_theme_dimension_28">28dp</dimen>
+    <dimen name="xhs_theme_dimension_280">280dp</dimen>
+    <dimen name="xhs_theme_dimension_3">3dp</dimen>
+    <dimen name="xhs_theme_dimension_30">30dp</dimen>
+    <dimen name="xhs_theme_dimension_300">300dp</dimen>
+    <dimen name="xhs_theme_dimension_31">31dp</dimen>
+    <dimen name="xhs_theme_dimension_313">313dp</dimen>
+    <dimen name="xhs_theme_dimension_32">32dp</dimen>
+    <dimen name="xhs_theme_dimension_34">34dp</dimen>
+    <dimen name="xhs_theme_dimension_345">345dp</dimen>
+    <dimen name="xhs_theme_dimension_35">35dp</dimen>
+    <dimen name="xhs_theme_dimension_36">36dp</dimen>
+    <dimen name="xhs_theme_dimension_37">37dp</dimen>
+    <dimen name="xhs_theme_dimension_38">38dp</dimen>
+    <dimen name="xhs_theme_dimension_4">4dp</dimen>
+    <dimen name="xhs_theme_dimension_40">40dp</dimen>
+    <dimen name="xhs_theme_dimension_400">400dp</dimen>
+    <dimen name="xhs_theme_dimension_42">42dp</dimen>
+    <dimen name="xhs_theme_dimension_44">44dp</dimen>
+    <dimen name="xhs_theme_dimension_45">45dp</dimen>
+    <dimen name="xhs_theme_dimension_48">48dp</dimen>
+    <dimen name="xhs_theme_dimension_49">49dp</dimen>
+    <dimen name="xhs_theme_dimension_5">5dp</dimen>
+    <dimen name="xhs_theme_dimension_50">50dp</dimen>
+    <dimen name="xhs_theme_dimension_51">51dp</dimen>
+    <dimen name="xhs_theme_dimension_52">52dp</dimen>
+    <dimen name="xhs_theme_dimension_53">53dp</dimen>
+    <dimen name="xhs_theme_dimension_54">54dp</dimen>
+    <dimen name="xhs_theme_dimension_55">55dp</dimen>
+    <dimen name="xhs_theme_dimension_56">56dp</dimen>
+    <dimen name="xhs_theme_dimension_58">58dp</dimen>
+    <dimen name="xhs_theme_dimension_59">59dp</dimen>
+    <dimen name="xhs_theme_dimension_6">6dp</dimen>
+    <dimen name="xhs_theme_dimension_60">60dp</dimen>
+    <dimen name="xhs_theme_dimension_62">62dp</dimen>
+    <dimen name="xhs_theme_dimension_63">63dp</dimen>
+    <dimen name="xhs_theme_dimension_64">64dp</dimen>
+    <dimen name="xhs_theme_dimension_65">65dp</dimen>
+    <dimen name="xhs_theme_dimension_66">66dp</dimen>
+    <dimen name="xhs_theme_dimension_67">67dp</dimen>
+    <dimen name="xhs_theme_dimension_68">68dp</dimen>
+    <dimen name="xhs_theme_dimension_6_5">6.5dp</dimen>
+    <dimen name="xhs_theme_dimension_7">7dp</dimen>
+    <dimen name="xhs_theme_dimension_70">70dp</dimen>
+    <dimen name="xhs_theme_dimension_72">72dp</dimen>
+    <dimen name="xhs_theme_dimension_75">75dp</dimen>
+    <dimen name="xhs_theme_dimension_76">76dp</dimen>
+    <dimen name="xhs_theme_dimension_78">78dp</dimen>
+    <dimen name="xhs_theme_dimension_79">79dp</dimen>
+    <dimen name="xhs_theme_dimension_8">8dp</dimen>
+    <dimen name="xhs_theme_dimension_80">80dp</dimen>
+    <dimen name="xhs_theme_dimension_81">81dp</dimen>
+    <dimen name="xhs_theme_dimension_82">82dp</dimen>
+    <dimen name="xhs_theme_dimension_83">83dp</dimen>
+    <dimen name="xhs_theme_dimension_85">85dp</dimen>
+    <dimen name="xhs_theme_dimension_86">86dp</dimen>
+    <dimen name="xhs_theme_dimension_8_">-8dp</dimen>
+    <dimen name="xhs_theme_dimension_9">9dp</dimen>
+    <dimen name="xhs_theme_dimension_90">90dp</dimen>
+    <dimen name="xhs_theme_dimension_95">95dp</dimen>
+    <dimen name="xhs_theme_dimension_96">96dp</dimen>
+    <dimen name="xhs_theme_dimension_M_3">-3dp</dimen>
+    <dimen name="xhs_theme_dimension_M_5">-5dp</dimen>
+    <dimen name="xhs_theme_dimension_M_6">-6dp</dimen>
+    <item name="xhs_theme_kids_mode_dialog_fix_width_major" type="dimen">75%</item>
+    <item name="xhs_theme_kids_mode_dialog_fix_width_minor" type="dimen">75%</item>
+    <item name="xhs_theme_kids_mode_dialog_min_width_major" type="dimen">75%</item>
+    <item name="xhs_theme_kids_mode_dialog_min_width_minor" type="dimen">75%</item>
+    <dimen name="xhs_theme_px_1">1px</dimen>
+    <dimen name="xhs_theme_sms_status_bar_size">0dp</dimen>
+    <dimen name="xhs_theme_text_10">10sp</dimen>
+    <dimen name="xhs_theme_text_11">11sp</dimen>
+    <dimen name="xhs_theme_text_12">12sp</dimen>
+    <dimen name="xhs_theme_text_13">13sp</dimen>
+    <dimen name="xhs_theme_text_14">14sp</dimen>
+    <dimen name="xhs_theme_text_15">15sp</dimen>
+    <dimen name="xhs_theme_text_16">16sp</dimen>
+    <dimen name="xhs_theme_text_17">17sp</dimen>
+    <dimen name="xhs_theme_text_18">18sp</dimen>
+    <dimen name="xhs_theme_text_20">20sp</dimen>
+    <dimen name="xhs_theme_text_22">22sp</dimen>
+    <dimen name="xhs_theme_text_24">24sp</dimen>
+    <dimen name="xhs_theme_text_25">25sp</dimen>
+    <dimen name="xhs_theme_text_26">26sp</dimen>
+    <dimen name="xhs_theme_text_36">36sp</dimen>
+    <dimen name="xhs_theme_text_40">40sp</dimen>
+    <dimen name="xhs_theme_text_8">8sp</dimen>
+    <dimen name="xhs_theme_text_9">9sp</dimen>
+    <dimen name="xhs_theme_text_large">20sp</dimen>
+    <dimen name="xhs_theme_text_little">@dimen/xhs_theme_text_micro</dimen>
+    <dimen name="xhs_theme_text_medium">16sp</dimen>
+    <dimen name="xhs_theme_text_micro">12sp</dimen>
+    <dimen name="xhs_theme_text_normal">14sp</dimen>
+    <dimen name="xhs_theme_toolbar_size">@dimen/xhs_theme_dimension_44</dimen>
+    <item name="xhs_theme_actionBar" type="id"/>
+    <item name="xhs_theme_right_btn" type="id"/>
+    <item name="xhs_theme_rl_parents_linear" type="id"/>
+    <item name="xhs_theme_skin_adapter" type="id"/>
+    <item name="xhs_theme_skin_current" type="id"/>
+    <item name="xhs_theme_skin_default_attr_provider" type="id"/>
+    <item name="xhs_theme_skin_dispatch_interceptor" type="id"/>
+    <item name="xhs_theme_skin_skip_for_maker" type="id"/>
+    <item name="xhs_theme_skin_svg_data" type="id"/>
+    <item name="xhs_theme_skin_value" type="id"/>
+    <item name="xhs_theme_tv_left" type="id"/>
+    <item name="xhs_theme_tv_title" type="id"/>
+    <integer name="font_size_heading_h1">24</integer>
+    <integer name="font_size_heading_h2">20</integer>
+    <integer name="font_size_heading_h3">18</integer>
+    <integer name="font_size_micro">10</integer>
+    <integer name="font_size_text_t1">16</integer>
+    <integer name="font_size_text_t2">14</integer>
+    <integer name="font_size_text_t3">12</integer>
+    <string name="XhsThemeFollow">关注</string>
+    <string name="XhsThemeFollowed">已关注</string>
+    <string name="XhsThemePrivateMessage">发私信</string>
+    <string name="XhsTheme_back">返回上一页</string>
+    <string name="XhsTheme_not_found_tips">工程薯正在努力抢修，你还可以:</string>
+    <string name="XhsTheme_refresh">刷新试试</string>
+    <string name="XhsTheme_server_eror">服务器出错</string>
+    <style name="XhsTheme"/>
+    <style name="XhsTheme.AlertDialogStyle" parent="Base.Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/xhsTheme_colorRed</item>
+    </style>
+    <style name="XhsTheme.MenuTextStyle">
+        <item name="android:textColor">@color/xhsTheme_colorGrayLevel3</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="XhsTheme.TabStyle" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">16dp</item>
+    </style>
+    <style name="XhsTheme.fontBold">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+    <style name="XhsTheme.fontItalic">
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+    <style name="XhsTheme.fontLarge" parent="XhsTheme.fontNormal">
+        <item name="android:textSize">16dp</item>
+    </style>
+    <style name="XhsTheme.fontLargeBold" parent="XhsTheme.fontBold">
+        <item name="android:textSize">16dp</item>
+    </style>
+    <style name="XhsTheme.fontLargeItalic" parent="XhsTheme.fontItalic">
+        <item name="android:textSize">16dp</item>
+    </style>
+    <style name="XhsTheme.fontMedium" parent="XhsTheme.fontNormal">
+        <item name="android:textSize">15dp</item>
+    </style>
+    <style name="XhsTheme.fontMediumBold" parent="XhsTheme.fontBold">
+        <item name="android:textSize">15dp</item>
+    </style>
+    <style name="XhsTheme.fontMediumItalic" parent="XhsTheme.fontItalic">
+        <item name="android:textSize">15dp</item>
+    </style>
+    <style name="XhsTheme.fontNormal">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+    <style name="XhsTheme.fontSmall" parent="XhsTheme.fontNormal">
+        <item name="android:textSize">13dp</item>
+    </style>
+    <style name="XhsTheme.fontSmallBold" parent="XhsTheme.fontBold">
+        <item name="android:textSize">13dp</item>
+    </style>
+    <style name="XhsTheme.fontSmallItalic" parent="XhsTheme.fontItalic">
+        <item name="android:textSize">13dp</item>
+    </style>
+    <style name="XhsTheme.fontXLarge" parent="XhsTheme.fontNormal">
+        <item name="android:textSize">18dp</item>
+    </style>
+    <style name="XhsTheme.fontXLargeBold" parent="XhsTheme.fontBold">
+        <item name="android:textSize">18dp</item>
+    </style>
+    <style name="XhsTheme.fontXLargeItalic" parent="XhsTheme.fontItalic">
+        <item name="android:textSize">18dp</item>
+    </style>
+    <style name="XhsTheme.fontXMedium" parent="XhsTheme.fontNormal">
+        <item name="android:textSize">14dp</item>
+    </style>
+    <style name="XhsTheme.fontXMediumBold" parent="XhsTheme.fontBold">
+        <item name="android:textSize">14dp</item>
+    </style>
+    <style name="XhsTheme.fontXMediumItalic" parent="XhsTheme.fontItalic">
+        <item name="android:textSize">14dp</item>
+    </style>
+    <style name="XhsTheme.fontXSmall" parent="XhsTheme.fontNormal">
+        <item name="android:textSize">11dp</item>
+    </style>
+    <style name="XhsTheme.fontXSmallBold" parent="XhsTheme.fontBold">
+        <item name="android:textSize">11dp</item>
+    </style>
+    <style name="XhsTheme.fontXSmallItalic" parent="XhsTheme.fontItalic">
+        <item name="android:textSize">11dp</item>
+    </style>
+    <style name="XhsTheme.textFontBold">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="XhsTheme.textFontItalic">
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="XhsTheme.textFontLarge" parent="XhsTheme.textFontNormal">
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="XhsTheme.textFontLargeBold" parent="XhsTheme.textFontBold">
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="XhsTheme.textFontLargeItalic" parent="XhsTheme.textFontItalic">
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="XhsTheme.textFontMedium" parent="XhsTheme.textFontNormal">
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="XhsTheme.textFontMediumBold" parent="XhsTheme.textFontBold">
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="XhsTheme.textFontMediumItalic" parent="XhsTheme.textFontItalic">
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="XhsTheme.textFontNormal">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="XhsTheme.textFontSmall" parent="XhsTheme.textFontNormal">
+        <item name="android:textSize">13sp</item>
+    </style>
+    <style name="XhsTheme.textFontSmallBold" parent="XhsTheme.textFontBold">
+        <item name="android:textSize">13sp</item>
+    </style>
+    <style name="XhsTheme.textFontSmallItalic" parent="XhsTheme.textFontItalic">
+        <item name="android:textSize">13sp</item>
+    </style>
+    <style name="XhsTheme.textFontXLarge" parent="XhsTheme.textFontNormal">
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="XhsTheme.textFontXLargeBold" parent="XhsTheme.textFontBold">
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="XhsTheme.textFontXLargeItalic" parent="XhsTheme.textFontItalic">
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="XhsTheme.textFontXMedium" parent="XhsTheme.textFontNormal">
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="XhsTheme.textFontXMediumBold" parent="XhsTheme.textFontBold">
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="XhsTheme.textFontXMediumItalic" parent="XhsTheme.textFontItalic">
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="XhsTheme.textFontXSmall" parent="XhsTheme.textFontNormal">
+        <item name="android:textSize">11sp</item>
+    </style>
+    <style name="XhsTheme.textFontXSmallBold" parent="XhsTheme.textFontBold">
+        <item name="android:textSize">11sp</item>
+    </style>
+    <style name="XhsTheme.textFontXSmallItalic" parent="XhsTheme.textFontItalic">
+        <item name="android:textSize">11sp</item>
+    </style>
+    <style name="XhsTheme_Light" parent="XhsTheme.AppTheme">
+
+    </style>
+    <style name="XhsTheme_Night" parent="XhsTheme.AppTheme">
+
+    </style>
+    <style name="xhs_theme_progress_normal_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+</resources>

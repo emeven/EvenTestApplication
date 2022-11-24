@@ -1,31 +1,33 @@
 package com.example.eventestapplication.bottomsheetbehavior
 
+import android.graphics.Rect
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.drakeet.multitype.MultiTypeAdapter
 import com.example.eventestapplication.R
 import com.example.eventestapplication.dragging.itembinder.HeadImageItemBinder
 import com.example.eventestapplication.dragging.itembinder.TitleItemBinder
 import com.example.eventestapplication.entities.TitleBean
-import com.example.eventestapplication.utils.logep
+import com.example.eventestapplication.utils.*
+import com.google.android.material.bottomsheet.BottomSheetBehavior
 import kotlinx.android.synthetic.main.fragment_bottom_sheet.*
 
-class BottomSheetFragment(val behavior: RecyclerViewBottomSheetBehavior<*>) : Fragment() {
+class BottomSheetFragment(private val behavior: BottomSheetBehavior<*>) : Fragment() {
 
     private val adapter = MultiTypeAdapter()
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        val view = inflater.inflate(R.layout.fragment_bottom_sheet, container, false)
-        showSheetDialog()
-        return view
+        return inflater.inflate(R.layout.fragment_bottom_sheet, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        showSheetDialog()
         registerItem()
         initRecyclerView()
         loadPanelData()
@@ -39,6 +41,31 @@ class BottomSheetFragment(val behavior: RecyclerViewBottomSheetBehavior<*>) : Fr
     private fun initRecyclerView() {
         bottom_sheet_rv.layoutManager = LinearLayoutManager(context, LinearLayoutManager.VERTICAL, false)
         bottom_sheet_rv.adapter = adapter
+        bottom_sheet_rv.addOnScrollListener(object : RecyclerView.OnScrollListener() {
+            override fun onScrolled(recyclerView: RecyclerView, dx: Int, dy: Int) {
+                super.onScrolled(recyclerView, dx, dy)
+                // 上滑 dy > 0 ; 下滑 dy < 0
+                val layoutManager = bottom_sheet_rv.layoutManager as LinearLayoutManager
+                if (layoutManager.findFirstVisibleItemPosition() != 0) return
+                logep("dy = $dy, progress = ${getProgress()}")
+            }
+        })
+        bottom_sheet.setTopRoundCorner(12.dpF)
+//        bottom_sheet_rv.setRoundCorner(12.dpF)
+    }
+
+    private fun getProgress(): Float {
+        val layoutManager = bottom_sheet_rv.layoutManager as LinearLayoutManager
+        if (layoutManager.findFirstVisibleItemPosition() != 0) return 1f
+        val viewHolder = bottom_sheet_rv.findViewHolderForAdapterPosition(0)
+        val screenWidth = UIUtil.getScreenWidth(context).toFloat()
+        viewHolder?.itemView?.apply {
+            val rect = Rect()
+            if (getLocalVisibleRect(rect)) {
+                return rect.height() / screenWidth
+            }
+        }
+        return 0f
     }
 
     private fun loadPanelData() {
@@ -55,24 +82,25 @@ class BottomSheetFragment(val behavior: RecyclerViewBottomSheetBehavior<*>) : Fr
     }
 
     private fun showSheetDialog() {
-        behavior.setState(RecyclerViewBottomSheetBehavior.STATE_COLLAPSED)
+        behavior.state = BottomSheetBehavior.STATE_COLLAPSED
         behavior.peekHeight = this.resources.displayMetrics.heightPixels / 2 + 50
         behavior.isHideable = true
-        behavior.setBottomSheetCallback(object : RecyclerViewBottomSheetBehavior.BottomSheetCallback() {
+        behavior.addBottomSheetCallback(object : BottomSheetBehavior.BottomSheetCallback() {
             override fun onStateChanged(bottomSheet: View, newState: Int) {
-                if (newState == RecyclerViewBottomSheetBehavior.STATE_HIDDEN) {
+                if (newState == BottomSheetBehavior.STATE_HIDDEN) {
                     activity?.finish()
                 }
             }
 
             override fun onSlide(bottomSheet: View, slideOffset: Float) {
-                logep("slideOffset = $slideOffset")
+//                logep("slideOffset = $slideOffset")
             }
+
         })
     }
 
     companion object {
-        fun newInstance(behavior: RecyclerViewBottomSheetBehavior<*>): BottomSheetFragment {
+        fun newInstance(behavior: BottomSheetBehavior<*>): BottomSheetFragment {
             return BottomSheetFragment(behavior)
         }
     }

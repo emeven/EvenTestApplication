@@ -8,10 +8,10 @@
     tools:context=".bottomsheetbehavior.BottomSheetBehaviorActivity">
 
     <FrameLayout
-        android:id="@+id/fl_container"
+        android:id="@+id/bottom_sheet_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:behavior_hideable="true"
-        app:layout_behavior=".bottomsheetbehavior.RecyclerViewBottomSheetBehavior" />
+        app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
