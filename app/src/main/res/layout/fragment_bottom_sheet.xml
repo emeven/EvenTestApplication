@@ -10,5 +10,35 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#6A1A33" />
+    
+    <View
+        android:id="@+id/cover_view"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:visibility="gone"
+        android:background="@color/xhsTheme_colorWhite"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:divider="@drawable/matrix_goods_detail_star_divider"
+        android:orientation="horizontal"
+        android:showDividers="middle"
+        android:layout_height="500dp">
+
+        <View
+            android:layout_width="20dp"
+            android:background="@color/xhsTheme_colorRed"
+            android:layout_height="10dp"/>
+
+        <View
+            android:layout_width="20dp"
+            android:background="@color/xhsTheme_colorRed"
+            android:layout_height="10dp"/>
+
+        <View
+            android:layout_width="20dp"
+            android:background="@color/xhsTheme_colorRed"
+            android:layout_height="10dp"/>
+    </LinearLayout>
 
 </FrameLayout>

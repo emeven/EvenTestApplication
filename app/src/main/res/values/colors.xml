@@ -13,6 +13,4 @@
 
     <color name="background" tools:ignore="MissingDefaultResource">#F2F2F2</color>
 
-    <color name="xhsTheme_colorTransparent">@android:color/transparent</color>
-
 </resources>

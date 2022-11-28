@@ -21,6 +21,8 @@ class BottomSheetFragment(private val behavior: BottomSheetBehavior<*>) : Fragme
 
     private val adapter = MultiTypeAdapter()
 
+    private val coverRect = Rect()
+
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         return inflater.inflate(R.layout.fragment_bottom_sheet, container, false)
     }
@@ -48,10 +50,10 @@ class BottomSheetFragment(private val behavior: BottomSheetBehavior<*>) : Fragme
                 val layoutManager = bottom_sheet_rv.layoutManager as LinearLayoutManager
                 if (layoutManager.findFirstVisibleItemPosition() != 0) return
                 logep("dy = $dy, progress = ${getProgress()}")
+                cover_view.alpha = 1 - getProgress()
             }
         })
         bottom_sheet.setTopRoundCorner(12.dpF)
-//        bottom_sheet_rv.setRoundCorner(12.dpF)
     }
 
     private fun getProgress(): Float {
@@ -61,8 +63,10 @@ class BottomSheetFragment(private val behavior: BottomSheetBehavior<*>) : Fragme
         val screenWidth = UIUtil.getScreenWidth(context).toFloat()
         viewHolder?.itemView?.apply {
             val rect = Rect()
-            if (getLocalVisibleRect(rect)) {
-                return rect.height() / screenWidth
+            if (getGlobalVisibleRect(rect) && !coverRect.isEmpty) {
+                val visibleHeight = rect.bottom - coverRect.bottom
+                logep("rect bottom = ${rect.bottom}, coverRect = ${coverRect.bottom}")
+                return if (visibleHeight > 0) visibleHeight / (screenWidth - coverRect.height()) else 0f
             }
         }
         return 0f
@@ -87,8 +91,23 @@ class BottomSheetFragment(private val behavior: BottomSheetBehavior<*>) : Fragme
         behavior.isHideable = true
         behavior.addBottomSheetCallback(object : BottomSheetBehavior.BottomSheetCallback() {
             override fun onStateChanged(bottomSheet: View, newState: Int) {
-                if (newState == BottomSheetBehavior.STATE_HIDDEN) {
-                    activity?.finish()
+                when(newState) {
+                    BottomSheetBehavior.STATE_EXPANDED -> {
+                        logep("STATE_EXPANDED")
+                        cover_view.show()
+                        cover_view.alpha = 0f
+                        cover_view.post {
+                            cover_view.getGlobalVisibleRect(coverRect)
+                        }
+                    }
+                    BottomSheetBehavior.STATE_COLLAPSED -> {
+                        logep("STATE_COLLAPSED")
+                        cover_view.hide()
+                    }
+                    BottomSheetBehavior.STATE_HIDDEN -> {
+                        logep("STATE_HIDDEN")
+                        activity?.finish()
+                    }
                 }
             }
 

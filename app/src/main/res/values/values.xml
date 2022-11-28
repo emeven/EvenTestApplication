@@ -1,20 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <attr format="reference" name="XhsThemeSwipeBackLayoutStyle"/>
-    <attr format="integer" name="xhs_theme_alpha"/>
-    <attr format="boolean" name="xhs_theme_disable"/>
-    <attr format="boolean" name="xhs_theme_font_disable"/>
-    <attr format="color" name="xhs_theme_support_activity_background"/>
-    <attr format="color" name="xhs_theme_support_color_background"/>
-    <attr format="color" name="xhs_theme_support_color_background_pressed"/>
-    <attr format="color" name="xhs_theme_support_color_separator"/>
-    <attr format="color" name="xhs_theme_support_color_separator_darken"/>
-    <attr format="color" name="xhs_theme_support_pull_refresh_view_color"/>
-    <attr format="color" name="xhs_theme_svg_fill_color"/>
-    <attr format="color" name="xhs_theme_svg_fill_color_night"/>
-    <attr format="color" name="xhs_theme_svg_stroke_color"/>
-    <attr format="color" name="xhs_theme_svg_stroke_color_night"/>
-    <attr format="integer" name="xhs_theme_svg_stroke_width"/>
     <color name="aiapps_open_location_menu_press">#8FFFFFFF</color>
     <color name="aiapps_open_location_menu_press_night">#8FFFFFFF</color>
     <color name="alioth_search_leader_board_pressed_color">#0A000000</color>
