@@ -113,6 +113,7 @@ class BottomSheetFragment(private val behavior: BottomSheetBehavior<*>) : Fragme
 
             override fun onSlide(bottomSheet: View, slideOffset: Float) {
 //                logep("slideOffset = $slideOffset")
+                offset_view.alpha = slideOffset
             }
 
         })

@@ -1,0 +1,642 @@
+{
+	"success": true,
+	"result": 0,
+	"data": {
+		"list": [
+			{
+				"card_type": "native",
+				"card_name": "header",
+				"content": {
+					"images": [
+						{
+							"url": "https://qimg.xiaohongshu.com/arkgoods/1000g0o01hgq75lqag0004ahjavctbicfpl7lan0?itemId=6364dfd879ee7700016de81c&imageView2/2/w/800/q/90.jpg",
+							"width": 800,
+							"height": 800
+						},
+						{
+							"url": "https://qimg.xiaohongshu.com/arkgoods/1000g0o01hgq75p8ba0004ahjavctbicf7q562t0?itemId=6364dfd879ee7700016de81c&imageView2/2/w/800/q/90.jpg",
+							"width": 800,
+							"height": 800
+						},
+						{
+							"url": "https://qimg.xiaohongshu.com/arkgoods/1000g0o01hgq75r2b40004ahjavctbicfupj89fg?itemId=6364dfd879ee7700016de81c&imageView2/2/w/800/q/90.jpg",
+							"width": 800,
+							"height": 800
+						},
+						{
+							"url": "https://qimg.xiaohongshu.com/arkgoods/1000g0o01hgq75u6b40004ahjavctbicf53s5tb0?itemId=6364dfd879ee7700016de81c&imageView2/2/w/800/q/90.jpg",
+							"width": 800,
+							"height": 800
+						},
+						{
+							"url": "https://qimg.xiaohongshu.com/arkgoods/1000g0o01hgq761oak0004ahjavctbicfd5go7u0?itemId=6364dfd879ee7700016de81c&imageView2/2/w/800/q/90.jpg",
+							"width": 800,
+							"height": 800
+						}
+					],
+					"video": null
+				}
+			},
+			{
+				"card_type": "stack",
+				"card_name": "primary",
+				"cards": [
+					{
+						"card_type": "dsl",
+						"card_name": "price",
+						"content": {
+							"highlight_price": 69.0,
+							"price_integer_part": "69",
+							"deal_price": {
+								"price": 64.0,
+								"type": 3,
+								"price_text": "到手价",
+								"is_show_price_pop": true
+							},
+							"promotion": null,
+							"spu_analysis_data_text": "已售71",
+							"is_followed": null,
+							"has_followed": false,
+							"multiple_discount": [],
+							"count_down": {
+								"icon": null,
+								"text": "距离结束",
+								"text1": null,
+								"time": 373413000
+							},
+							"background_image": "https://picasso-static.xiaohongshu.com/fe-platform/13edceb893f1b4f09eed79b694e85d7712faf521.png",
+							"tags": []
+						}
+					},
+					{
+						"card_type": "dsl",
+						"card_name": "title",
+						"content": {
+							"name": "泡泡玛特 · SKULLPANDA温度系列手办盲盒 潮流玩具可爱礼物 · 单个盲盒随机发",
+							"item_id": "6222ce263ba700000154d7a4",
+							"tags": [],
+							"spu_analysis_data_text": null,
+							"is_followed": false,
+							"has_followed": true
+						}
+					},
+					{
+						"card_type": "dsl",
+						"card_name": "income_tax",
+						"content": {
+							"tax": "进口税 ￥2"
+						}
+					},
+					{
+						"card_type": "dsl",
+						"card_name": "service_assurance",
+						"content": {
+							"list": [
+								{
+									"name": "品牌旗舰",
+									"icon": "https://picasso-static.xiaohongshu.com/fe-platform/0f280e9bb044ff39841fa5eb12f7dcfde991e2d4.png"
+								},
+								{
+									"name": "不支持无理由退换",
+									"icon": "https://picasso-static.xiaohongshu.com/fe-platform/4f6edbae4b67079b95323afb71b13eeb274d480f.png"
+								}
+							],
+							"service_assurance_popup": {
+								"title": null,
+								"list": [
+									{
+										"title": "品牌旗舰",
+										"description": "品牌旗舰店商品：该商品为品牌旗舰店直营商品，100%正品保障",
+										"link": null,
+										"show_warehouse": null,
+										"icon": "https://qimg.xiaohongshu.com/beerdemo/90a8e4f4bef8157c3a390a7d90ca8f97193dea00"
+									},
+									{
+										"title": "不支持无理由退换",
+										"description": "此商品不支持七天无理由退货。",
+										"link": null,
+										"show_warehouse": null,
+										"icon": "https://picasso-static.xiaohongshu.com/fe-platform/ad9b4dd244ccf0f2418d3f8b25e70bc245d9869d.png"
+									}
+								],
+								"banner": {
+									"banner_name": "福利社保障服务指南",
+									"title": "fulishe",
+									"description": "服务保障指南",
+									"link": "https://www.xiaohongshu.com/barley/thanos/vendor/53df5710b4c4d6383ae8e9a6/declaration?fullscreen=true",
+									"icon": null,
+									"background": "https://picasso-static.xiaohongshu.com/fe-platform/f9702ad2c546e7dba8d8cf90edd53fac0369c25c.png",
+									"text_color_hex": "#000",
+									"arrow_icon": {
+										"width": 20,
+										"height": 20,
+										"url": "https://picasso-static.xiaohongshu.com/fe-platform/b5d4fbff5a1dab6ad182652289a3302b6da44f70.png"
+									},
+									"logo": {
+										"width": 56,
+										"height": 18,
+										"url": "https://picasso-static.xiaohongshu.com/fe-platform/1b51911138a298b386a79357345a506af6d547a3.png"
+									}
+								}
+							}
+						}
+					}
+				]
+			},
+			{
+				"card_type": "dsl",
+				"card_name": "campaign_banner",
+				"content": {}
+			},
+			{
+				"card_type": "stack",
+				"card_name": "secondary",
+				"cards": [
+					{
+						"card_type": "dsl",
+						"card_name": "profit_bar",
+						"content": {
+							"tags": [
+								"满199元送赠品",
+								"商家券｜满6减5"
+							],
+							"profit_bar_popup": {
+								"title": "优惠",
+								"formula": {
+									"result": {
+										"name": "到手价",
+										"price": 64.0
+									},
+									"step": [
+										{
+											"name": "原始售价",
+											"price": 69.0
+										},
+										{
+											"name": "商家券",
+											"price": 5.0
+										}
+									]
+								},
+								"promotion": null,
+								"promotion_v1": {
+									"sub_title": "",
+									"title": "相关优惠",
+									"list": [
+										{
+											"entry_text": "适用商品",
+											"column_display": true,
+											"promotion_id": "637c9805eb2bee00015b530b",
+											"promotion_type": 19,
+											"sub_title": null,
+											"title": null,
+											"name": "店铺满额赠",
+											"validate_time": "有效期至2022.11.30 23:59",
+											"contents": [
+												{
+													"tag": "满199元送赠品",
+													"description": null,
+													"validate_time": "有效期至2022.11.30 23:59",
+													"gift_goods": [
+														{
+															"item_id": "637c945f657d640001ac834a",
+															"image_url": "https://qimg.xiaohongshu.com/arkgoods/1000g0o01kdda90ab80004ahjavctbicfufjrrco?itemId=637c945f657d640001ac834a&imageView2/1/w/320/h/320/q/90.jpg"
+														}
+													]
+												},
+												{
+													"tag": "满359元送赠品",
+													"description": null,
+													"validate_time": "有效期至2022.11.30 23:59",
+													"gift_goods": [
+														{
+															"item_id": "637c95db3bc48f0001ee99ed",
+															"image_url": "https://qimg.xiaohongshu.com/arkgoods/1000g0o01kddu35aag0004ahjavctbicfvm8g08g?itemId=637c95db3bc48f0001ee99ed&imageView2/1/w/320/h/320/q/90.jpg"
+														}
+													]
+												},
+												{
+													"tag": "满699元送赠品",
+													"description": null,
+													"validate_time": "有效期至2022.11.30 23:59",
+													"gift_goods": [
+														{
+															"item_id": "62c4fa1e724937000141b8a3",
+															"image_url": "https://qimg.xiaohongshu.com/arkgoods/010276016nz41phnwjz0l0nfw3j01xu0zj?itemId=62c4fa1e724937000141b8a3&imageView2/1/w/320/h/320/q/90.jpg"
+														}
+													]
+												}
+											],
+											"link": "http://www.xiaohongshu.com/store/sm/group-addon/637c9805eb2bee00015b530b?openPage=yes"
+										}
+									]
+								},
+								"coupon": {
+									"title": "优惠券",
+									"list": [
+										{
+											"discount_upper_limit": null,
+											"include_in_deal_price": true,
+											"claim_ciphertext": "K4lSA_-4LiSMbAmVCVBmj_OpG6ZBoZPgoLwtL1li2bmfaO4RowSzbrIncHwM00CjSLYWhfsk6mxJJvnD9ZT3pHZDctj8z36zYh9W-pFUVfXExL6rPorghA",
+											"claim_id": "637c8e0b02fe8a0001faa15f",
+											"template_id": "637c8e0b02fe8a0001faa15d",
+											"discount_price": 5.0,
+											"discount_type": 0,
+											"threshold_text": "满6使用",
+											"name": "泡泡玛特 POP MART旗舰店",
+											"description": "该薯券可在【泡泡玛特 POP MART旗舰店】使用",
+											"validate_time": "2022.11.23 00:00 - 2022.11.30 23:59",
+											"version": 2,
+											"claim_tip": null,
+											"coupon_type": null,
+											"coupon_type_text": "商家券",
+											"button": {
+												"type": 1,
+												"text": "领取",
+												"link": "xhsdiscover://rn/lancer/vendor/5b7b83ba75e4f02b752cd4d2",
+												"jump_checkout": false,
+												"has_deposit_presale": false,
+												"available_use": true
+											},
+											"type": 1,
+											"countdown": null,
+											"others": [
+												"该薯券可在【泡泡玛特 POP MART旗舰店】使用",
+												"特定商品（限时购、闪购、新人价、会员福利购）不可用"
+											]
+										}
+									]
+								},
+								"follow": {
+									"name": "名创优品",
+									"logo": "https://sns-avatar-qc.xhscdn.com/avatar/61b6f9cc25400800012ad7bb.jpg?imageView2/2/w/80/format/jpg",
+									"fans_num": 456492,
+									"seller_user_id": "5aa5eff04eacab38fb341a57",
+									"seller_id": "5b9b9126bb06cd65d3f41789"
+								},
+								"fission_coupon": null
+							}
+						}
+					},
+					{
+						"card_type": "dsl",
+						"card_name": "installment",
+						"content": {
+							"title": "分期",
+							"text": "享12期免息，每期¥35.66，可省32.1元",
+							"installment_popup": {
+								"title": "分期",
+								"tips": "该商品支持花呗免息支付，不收取任何利息或手续费",
+								"notice": "由于支付宝的限制，实付金额需要大于100元时才可使用【花呗免息】功能。",
+								"steps": [
+									{
+										"title": "3期免息",
+										"desc": "每期¥142.66，可省7.7元"
+									},
+									{
+										"title": "6期免息",
+										"desc": "每期¥71.33，可省19.26元"
+									},
+									{
+										"title": "12期免息",
+										"desc": "每期¥35.66，可省32.1元"
+									}
+								]
+							}
+						}
+					},
+					{
+						"card_type": "dsl",
+						"card_name": "selected_variant",
+						"content": {
+							"text": "单个盲盒随机发",
+							"item_id": "6364dfd879ee7700016de81c"
+						}
+					},
+					{
+						"card_type": "dsl",
+						"card_name": "delivery",
+						"content": {
+							"location": "浙江嘉兴",
+							"fee": "实付¥89包邮",
+							"shipment_icon": null,
+							"time": {
+								"text": "48小时内发货",
+								"mode": null
+							},
+							"delivery_popup": {
+								"title": "保税仓备货，全链路严控",
+								"content": "商品按规定提前备货至海关批准的保税仓，下单后商品将直接从保税仓发货，以确保高效的物流速度。",
+								"shipment_icon": "https://picasso-static.xiaohongshu.com/fe-platform/87473b02e7b9d673e64e9beff181ba46f23c511c.jpg",
+								"shipment_icon_dark": "https://picasso-static.xiaohongshu.com/fe-platform/87473b02e7b9d673e64e9beff181ba46f23c511c.jpg",
+								"nodes": [
+									{
+										"name": "海外直采",
+										"icon": "https://picasso-static.xiaohongshu.com/fe-platfrom/8d463d5258eec81ec36f5165df33c65f374ebfac.png",
+										"icon_dark": "https://picasso-static.xiaohongshu.com/fe-platfrom/8d463d5258eec81ec36f5165df33c65f374ebfac.png"
+									},
+									{
+										"name": "备货至保税仓",
+										"icon": "https://picasso-static.xiaohongshu.com/fe-platfrom/fe3d7e9d8dae116b4317059fed2a0d3b14bf8efb.png",
+										"icon_dark": "https://picasso-static.xiaohongshu.com/fe-platfrom/8d463d5258eec81ec36f5165df33c65f374ebfac.png"
+									},
+									{
+										"name": "订单产生",
+										"icon": "https://picasso-static.xiaohongshu.com/fe-platfrom/5eb33924f6a76b3a9e00969c0d7437c03a88de23.png",
+										"icon_dark": "https://picasso-static.xiaohongshu.com/fe-platfrom/8d463d5258eec81ec36f5165df33c65f374ebfac.png"
+									},
+									{
+										"name": "海关清关",
+										"icon": "https://picasso-static.xiaohongshu.com/fe-platfrom/31cba15376a86356b2331d8b8336ace72cdb757c.png",
+										"icon_dark": "https://picasso-static.xiaohongshu.com/fe-platfrom/8d463d5258eec81ec36f5165df33c65f374ebfac.png"
+									},
+									{
+										"name": "国内配送",
+										"icon": "https://picasso-static.xiaohongshu.com/fe-platfrom/6735d4cc153e49be283343fc2b52ad8ec955c022.png",
+										"icon_dark": "https://picasso-static.xiaohongshu.com/fe-platfrom/8d463d5258eec81ec36f5165df33c65f374ebfac.png"
+									},
+									{
+										"name": "到货签收",
+										"icon": "https://picasso-static.xiaohongshu.com/fe-platfrom/1eecc2ad965b950530e5b5eb3cea3a77adfe2505.png",
+										"icon_dark": "https://picasso-static.xiaohongshu.com/fe-platfrom/8d463d5258eec81ec36f5165df33c65f374ebfac.png"
+									}
+								]
+							}
+						}
+					}
+				]
+			},
+			{
+				"card_type": "native",
+				"card_name": "show_notes",
+				"content": {
+					"display_show_notes": true
+				}
+			},
+			{
+				"card_type": "native",
+				"card_name": "shop_recommend",
+				"content": {
+					"logo": "https://sns-avatar-qc.xhscdn.com/avatar/61b6f9cc25400800012ad7bb.jpg?image_view2/2/w/120/format/jpg",
+					"name": "名创优品旗舰店",
+					"link": "xhsdiscover://rn/lancer/vendor/5b9b9126bb06cd65d3f41789",
+					"tag": null,
+					"grade": "3.5",
+					"seller_score": "3.71",
+					"seller_score_text": "卖家口碑",
+					"slogan": null,
+					"item_count": null,
+					"next_title": "进店逛逛",
+					"id": "5b9b9126bb06cd65d3f41789",
+					"display_recommend_goods": true
+				}
+			},
+			{
+				"card_type": "native",
+				"card_name": "graphic_detail",
+				"cards": [
+					{
+						"card_type": "native",
+						"card_name": "graphic_detail_header",
+						"content": {
+							"guide": {
+								"title": "使用指南",
+								"images": [],
+								"video": []
+							},
+							"seller_id": "5b9b9126bb06cd65d3f41789",
+							"event_id": ""
+						}
+					},
+					{
+						"card_type": "native",
+						"card_name": "desc_label",
+						"content": {
+							"brand_card": null,
+							"shop_active": null,
+							"brand_authorization": null,
+							"description": null
+						}
+					},
+					{
+						"card_type": "native",
+						"card_name": "image_list",
+						"content": {
+							"images": [
+								{
+									"url": "https://qimg.xiaohongshu.com/arkgoods/1000g0o01hgq83tkb80004ahjavctbicfh3uqb38",
+									"width": 790,
+									"height": 1260
+								},
+								{
+									"url": "https://qimg.xiaohongshu.com/arkgoods/1000g0o01hgq84giak0004ahjavctbicffqng0l8",
+									"width": 790,
+									"height": 1193
+								},
+								{
+									"url": "https://qimg.xiaohongshu.com/arkgoods/1000g0o01hgq844mai0004ahjavctbicfgnoiuc0",
+									"width": 790,
+									"height": 779
+								},
+								{
+									"url": "https://qimg.xiaohongshu.com/arkgoods/1000g0o01hgq83keai0004ahjavctbicfr8b48hg",
+									"width": 790,
+									"height": 596
+								},
+								{
+									"url": "https://qimg.xiaohongshu.com/arkgoods/1000g0o01hgq840qai0004ahjavctbicf3723bd0",
+									"width": 790,
+									"height": 618
+								},
+								{
+									"url": "https://qimg.xiaohongshu.com/arkgoods/1000g0o01hgq83o0b40004ahjavctbicfvf9cf30",
+									"width": 790,
+									"height": 408
+								},
+								{
+									"url": "https://qimg.xiaohongshu.com/arkgoods/1000g0o01hgq84qeb00004ahjavctbicfv83g9so",
+									"width": 790,
+									"height": 698
+								},
+								{
+									"url": "https://qimg.xiaohongshu.com/arkgoods/1000g0o01hgq84e0b00004ahjavctbicfcc904j8",
+									"width": 790,
+									"height": 525
+								}
+							]
+						}
+					},
+					{
+						"card_type": "native",
+						"card_name": "expandable_view",
+						"cards": [
+							{
+								"card_type": "dsl",
+								"card_name": "variant_param",
+								"content": {
+									"title": "规格参数",
+									"list": [
+										{
+											"name": "商品名称",
+											"value": "Sanrio Characters塑料吸管杯(320mL）三丽鸥可爱杯子"
+										},
+										{
+											"name": "品牌",
+											"value": "名创优品"
+										}
+									]
+								}
+							}
+						]
+					},
+					{
+						"card_type": "native",
+						"card_name": "expandable_view",
+						"cards": [
+							{
+								"card_type": "dsl",
+								"card_name": "price_desc",
+								"content": {
+									"title": "价格说明",
+									"list": [
+										{
+											"name": "划线价格",
+											"value": "指商品的专柜价、吊牌价、正品零售价、厂商指导价或该商品的曾经展示过的销售价等，并非原价，仅供参考。"
+										},
+										{
+											"name": "未划线价格",
+											"value": "指商品的销售价，是您最终决定是否购买商品的依据。"
+										},
+										{
+											"name": "折扣",
+											"value": "页面显示的“折扣”为非划线价格与划线价格的对比，该对比值仅供您参考，不作为计算非划线价格的依据。"
+										}
+									]
+								}
+							}
+						]
+					},
+					{
+						"card_type": "native",
+						"card_name": "expandable_view",
+						"cards": [
+							{
+								"card_type": "dsl",
+								"card_name": "reminder",
+								"content": {
+									"title": null,
+									"text": null
+								}
+							}
+						]
+					}
+				]
+			}
+		],
+		"bottom_bar": {
+			"item_id": "624c52fc67b8b70001bb66b1",
+			"func_buttons": [
+				{
+					"type": "seller",
+					"name": "店铺",
+					"id": "61a651cf82305800011577ad",
+					"link": "xhsdiscover://user/6183cf00000000001000b121?tab=goods",
+					"image": "https://sns-avatar-qc.xhscdn.com/avatar/6183cf74379d0ae9aaa2ab24.jpg?imageView2/2/w/120/format/jpg"
+				},
+				{
+					"type": "service",
+					"name": "客服",
+					"link": "xhsdiscover://rn/eva-seraph/seller/61a651cf82305800011577ad/chat?goods_id=624c52fc67b8b70001bb66b1"
+				},
+				{
+					"type": "cart",
+					"count": 2
+				}
+			],
+			"shop_buttons": [
+				{
+					"card_type": "native",
+					"card_name": "add_cart",
+					"content": {
+						"text": "加入购物车"
+					}
+				},
+				{
+					"card_tyep": "native",
+					"card_name": "instant_buy",
+					"content": {
+						"text": "立即购买"
+					}
+				}
+			],
+			"price": 3380,
+			"is_single_variant": false,
+			"delivery_info": {
+				"able_to_delivery": true
+			}
+		},
+		"nav_bar": {
+			"has_placeholder": true,
+			"title": "更多功能",
+			"has_more_button": true,
+			"share_info": {
+				"title": "(51号链接)苹果 12",
+				"componentName": "goods_detail",
+				"sheetType": "share",
+				"image": "https://qimg.xiaohongshu.com/arkgoods/01029f000001vifblmu0l0xiaut075qbja?itemId=624c52fc67b8b70001bb66b1&imageView2/2/w/800/q/90",
+				"imageurl": "https://qimg.xiaohongshu.com/arkgoods/01029f000001vifblmu0l0xiaut075qbja?itemId=624c52fc67b8b70001bb66b1&imageView2/2/w/800/q/90",
+				"linkurl": "https://www.xiaohongshu.com/goods-detail/624c52fc67b8b70001bb66b1",
+				"content": "5月17号 新升级哑光磨砂质感 清爽舒适透气 防手汗防指纹 自带高透玻璃镜头膜 底部喇叭防尘设计 按键灵敏 精准孔位！12.13系列 有不了解的联系客服💁‍♂️",
+				"type": "ShareToFriend,WeixinSession,WeixinTimeline,SinaWeibo,QQ,QQSpace,StoreHome,StoreCart,StoreOrder,StoreCoupon,StoreWishList,StoreRedVIP,report,copy",
+				"extension": {
+					"friend": "{\"type\":\"goodsDetail\",\"avatar\":\"https://sns-avatar-qc.xhscdn.com/avatar/6183cf74379d0ae9aaa2ab24.jpg?imageView2/2/w/120/format/jpg\",\"officialVerifyType\":0,\"brandName\":\"华姐数码的店\",\"brandId\":\"61a651cf82305800011577ad\",\"image\":\"https://qimg.xiaohongshu.com/arkgoods/01029f000001vifblmu0l0xiaut075qbja?itemId=624c52fc67b8b70001bb66b1&imageView2/2/w/800/q/90\",\"desc\":\"(51号链接)苹果 12\",\"price\":3380,\"id\":\"624c52fc67b8b70001bb66b1\",\"title\":\"(51号链接)苹果 12\",\"content\":\"华姐数码的店\",\"cover\":\"https://qimg.xiaohongshu.com/arkgoods/01029f000001vifblmu0l0xiaut075qbja?itemId=624c52fc67b8b70001bb66b1&imageView2/2/w/800/q/90\"}",
+					"items": [
+						{
+							"title": "商城首页",
+							"url": "xhsdiscover://home/store",
+							"type": "StoreHome"
+						},
+						{
+							"title": "购物车",
+							"url": "xhsdiscover://rn/lancer/user/shopping_cart?eaglet_id=1152&upstream=nns",
+							"type": "StoreCart"
+						},
+						{
+							"title": "订单",
+							"url": "xhsdiscover://rn/lancer-order/order/list",
+							"type": "StoreOrder"
+						},
+						{
+							"title": "卡券",
+							"url": "https://www.xiaohongshu.com/activity/coupon/list",
+							"type": "StoreCoupon"
+						},
+						{
+							"title": "心愿单",
+							"url": "https://www.xiaohongshu.com/wishlist/index",
+							"type": "StoreWishList"
+						},
+						{
+							"title": "小红卡会员",
+							"url": "https://www.xiaohongshu.com/store/mc/landing",
+							"type": "StoreRedVIP"
+						},
+						{
+							"title": "举报",
+							"url": "https://www.xiaohongshu.com/evaluation/tip-offs?goodsId=624c52fc67b8b70001bb66b1",
+							"type": "report"
+						}
+					]
+				},
+				"base_url": "https://www.xiaohongshu.com"
+			}
+		},
+		"common": {
+			"seller_id": "5b9b9126bb06cd65d3f41789",
+			"has_search": true,
+			"item_id": "6222ce263ba700000154d7a4",
+			"stock_status": 1
+		}
+	},
+	"error_code": 0
+}
