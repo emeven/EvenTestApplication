@@ -53,15 +53,11 @@
 								"price_text": "到手价",
 								"is_show_price_pop": true
 							},
-							"promotion": null,
 							"spu_analysis_data_text": "已售71",
-							"is_followed": null,
 							"has_followed": false,
 							"multiple_discount": [],
 							"count_down": {
-								"icon": null,
 								"text": "距离结束",
-								"text1": null,
 								"time": 373413000
 							},
 							"background_image": "https://picasso-static.xiaohongshu.com/fe-platform/13edceb893f1b4f09eed79b694e85d7712faf521.png",
@@ -74,8 +70,13 @@
 						"content": {
 							"name": "泡泡玛特 · SKULLPANDA温度系列手办盲盒 潮流玩具可爱礼物 · 单个盲盒随机发",
 							"item_id": "6222ce263ba700000154d7a4",
-							"tags": [],
-							"spu_analysis_data_text": null,
+							"tags": [
+								{
+									"name": "自营",
+									"type": 2,
+									"image": null
+								}
+							],
 							"is_followed": false,
 							"has_followed": true
 						}
@@ -102,20 +103,15 @@
 								}
 							],
 							"service_assurance_popup": {
-								"title": null,
 								"list": [
 									{
 										"title": "品牌旗舰",
 										"description": "品牌旗舰店商品：该商品为品牌旗舰店直营商品，100%正品保障",
-										"link": null,
-										"show_warehouse": null,
 										"icon": "https://qimg.xiaohongshu.com/beerdemo/90a8e4f4bef8157c3a390a7d90ca8f97193dea00"
 									},
 									{
 										"title": "不支持无理由退换",
 										"description": "此商品不支持七天无理由退货。",
-										"link": null,
-										"show_warehouse": null,
 										"icon": "https://picasso-static.xiaohongshu.com/fe-platform/ad9b4dd244ccf0f2418d3f8b25e70bc245d9869d.png"
 									}
 								],
@@ -124,7 +120,6 @@
 									"title": "fulishe",
 									"description": "服务保障指南",
 									"link": "https://www.xiaohongshu.com/barley/thanos/vendor/53df5710b4c4d6383ae8e9a6/declaration?fullscreen=true",
-									"icon": null,
 									"background": "https://picasso-static.xiaohongshu.com/fe-platform/f9702ad2c546e7dba8d8cf90edd53fac0369c25c.png",
 									"text_color_hex": "#000",
 									"arrow_icon": {
@@ -178,7 +173,6 @@
 										}
 									]
 								},
-								"promotion": null,
 								"promotion_v1": {
 									"sub_title": "",
 									"title": "相关优惠",
@@ -188,14 +182,11 @@
 											"column_display": true,
 											"promotion_id": "637c9805eb2bee00015b530b",
 											"promotion_type": 19,
-											"sub_title": null,
-											"title": null,
 											"name": "店铺满额赠",
 											"validate_time": "有效期至2022.11.30 23:59",
 											"contents": [
 												{
 													"tag": "满199元送赠品",
-													"description": null,
 													"validate_time": "有效期至2022.11.30 23:59",
 													"gift_goods": [
 														{
@@ -206,7 +197,6 @@
 												},
 												{
 													"tag": "满359元送赠品",
-													"description": null,
 													"validate_time": "有效期至2022.11.30 23:59",
 													"gift_goods": [
 														{
@@ -217,7 +207,6 @@
 												},
 												{
 													"tag": "满699元送赠品",
-													"description": null,
 													"validate_time": "有效期至2022.11.30 23:59",
 													"gift_goods": [
 														{
@@ -235,7 +224,6 @@
 									"title": "优惠券",
 									"list": [
 										{
-											"discount_upper_limit": null,
 											"include_in_deal_price": true,
 											"claim_ciphertext": "K4lSA_-4LiSMbAmVCVBmj_OpG6ZBoZPgoLwtL1li2bmfaO4RowSzbrIncHwM00CjSLYWhfsk6mxJJvnD9ZT3pHZDctj8z36zYh9W-pFUVfXExL6rPorghA",
 											"claim_id": "637c8e0b02fe8a0001faa15f",
@@ -247,9 +235,8 @@
 											"description": "该薯券可在【泡泡玛特 POP MART旗舰店】使用",
 											"validate_time": "2022.11.23 00:00 - 2022.11.30 23:59",
 											"version": 2,
-											"claim_tip": null,
-											"coupon_type": null,
 											"coupon_type_text": "商家券",
+											"discount_upper_limit": "最高抵扣100块",
 											"button": {
 												"type": 1,
 												"text": "领取",
@@ -259,7 +246,6 @@
 												"available_use": true
 											},
 											"type": 1,
-											"countdown": null,
 											"others": [
 												"该薯券可在【泡泡玛特 POP MART旗舰店】使用",
 												"特定商品（限时购、闪购、新人价、会员福利购）不可用"
@@ -273,8 +259,7 @@
 									"fans_num": 456492,
 									"seller_user_id": "5aa5eff04eacab38fb341a57",
 									"seller_id": "5b9b9126bb06cd65d3f41789"
-								},
-								"fission_coupon": null
+								}
 							}
 						}
 					},
@@ -307,6 +292,11 @@
 					},
 					{
 						"card_type": "dsl",
+						"card_name": "stores",
+						"content": {}
+					},
+					{
+						"card_type": "dsl",
 						"card_name": "selected_variant",
 						"content": {
 							"text": "单个盲盒随机发",
@@ -319,10 +309,8 @@
 						"content": {
 							"location": "浙江嘉兴",
 							"fee": "实付¥89包邮",
-							"shipment_icon": null,
 							"time": {
-								"text": "48小时内发货",
-								"mode": null
+								"text": "48小时内发货"
 							},
 							"delivery_popup": {
 								"title": "保税仓备货，全链路严控",
@@ -380,12 +368,9 @@
 					"logo": "https://sns-avatar-qc.xhscdn.com/avatar/61b6f9cc25400800012ad7bb.jpg?image_view2/2/w/120/format/jpg",
 					"name": "名创优品旗舰店",
 					"link": "xhsdiscover://rn/lancer/vendor/5b9b9126bb06cd65d3f41789",
-					"tag": null,
 					"grade": "3.5",
 					"seller_score": "3.71",
 					"seller_score_text": "卖家口碑",
-					"slogan": null,
-					"item_count": null,
 					"next_title": "进店逛逛",
 					"id": "5b9b9126bb06cd65d3f41789",
 					"display_recommend_goods": true
@@ -412,10 +397,7 @@
 						"card_type": "native",
 						"card_name": "desc_label",
 						"content": {
-							"brand_card": null,
-							"shop_active": null,
-							"brand_authorization": null,
-							"description": null
+							"description": "1.7L大容量煮茶器，专为喝茶一族设计。\n按茶种分类自动煮茶模式，自动升降，智能控温保温功能。避免长时间煮茶导致口味不好的尴尬。\n售后说明：\n1、本店支持七天理由退货（包装完整，无使用、不影响二次销售情况下）\n2、超过店铺退换时效的，进入保修流程；摩飞全线产品质保两年，如需保修，可咨询后按流程寄送保修即可。\nPS: 偏远地区（宁夏、甘肃、青海、内蒙古、新疆、西藏等）不包邮，疫情区停发或延时发货"
 						}
 					},
 					{
@@ -523,10 +505,7 @@
 							{
 								"card_type": "dsl",
 								"card_name": "reminder",
-								"content": {
-									"title": null,
-									"text": null
-								}
+								"content": {}
 							}
 						]
 					}
