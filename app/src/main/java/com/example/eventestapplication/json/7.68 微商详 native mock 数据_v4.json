@@ -77,6 +77,7 @@
 									"image": null
 								}
 							],
+							"spu_analysis_data_text": "已售112",
 							"is_followed": false,
 							"has_followed": true
 						}
@@ -451,12 +452,15 @@
 					{
 						"card_type": "native",
 						"card_name": "expandable_view",
+						"content": {
+							"title": "规格参数"
+						},
 						"cards": [
 							{
 								"card_type": "dsl",
 								"card_name": "variant_param",
 								"content": {
-									"title": "规格参数",
+									"title": "",
 									"list": [
 										{
 											"name": "商品名称",
@@ -474,10 +478,13 @@
 					{
 						"card_type": "native",
 						"card_name": "expandable_view",
+						"content": {
+							"title": "价格说明"
+						},
 						"cards": [
 							{
 								"card_type": "dsl",
-								"card_name": "price_desc",
+								"card_name": "title_and_sub_titles",
 								"content": {
 									"title": "价格说明",
 									"list": [
@@ -501,11 +508,107 @@
 					{
 						"card_type": "native",
 						"card_name": "expandable_view",
+						"content": {
+							"title": "消费提醒"
+						},
 						"cards": [
 							{
-								"card_type": "dsl",
-								"card_name": "reminder",
-								"content": {}
+								"card_type": "native",
+								"card_name": "title_and_sub_titles",
+								"content": {
+									"title": "",
+									"list": [
+										{
+											"name": "",
+											"value": "消费提醒文案1"
+										},
+										{
+											"name": "",
+											"value": "消费提醒文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案2"
+										},
+										{
+											"name": "",
+											"value": "消费提醒文案3"
+										}
+									]
+								}
+							}
+						]
+					},
+					{
+						"card_type": "native",
+						"card_name": "expandable_view",
+						"content": {
+							"title": "常见问题"
+						},
+						"cards": [
+							{
+								"card_type": "native",
+								"card_name": "title_and_sub_titles",
+								"content": {
+									"title": "关于商品产地的说明",
+									"list": [
+										{
+											"name": "",
+											"value": "由于进货批次不同，商品可能来源于多个产地，请以收货实物标注信息为准。"
+										}
+									]
+								}
+							},
+							{
+								"card_type": "native",
+								"card_name": "title_and_sub_titles",
+								"content": {
+									"title": "常见问题2",
+									"list": [
+										{
+											"name": "",
+											"value": "常见问题2的回答1"
+										},
+										{
+											"name": "",
+											"value": "常见问题2的回答2"
+										},
+										{
+											"name": "",
+											"value": "常见问题2的回答3"
+										}
+									]
+								}
+							}
+						]
+					},
+					{
+						"card_type": "native",
+						"card_name": "expandable_view",
+						"content": {
+							"title": "消费者告知书"
+						},
+						"cards": [
+							{
+								"card_type": "native",
+								"card_name": "title_and_sub_titles",
+								"content": {
+									"title": "尊敬的客户",
+									"list": [
+										{
+											"name": "",
+											"value": "在您选购境外商品前，麻烦仔细阅读此文，同意本文所告知内容后再进行下单购买："
+										},
+										{
+											"name": "",
+											"value": "1. 您在本（公司） App里购买的境外商品为产地直销商品，仅限个人自用不得进行再销售，商品本身可能无中文标签，您可以查看商品详情页里的使用指南或者在线联系薯队长。"
+										},
+										{
+											"name": "",
+											"value": "2. 您购买的境外商品适用的品质、健康、标识等项目的使用标准符合原产国使用标准，但是可能与我国标准有所不同，所以在使用过程中由此可能产生的危害或损失以及其他风险，将由您个人承担。"
+										},
+										{
+											"name": "",
+											"value": "3. 您在本（公司）App 里购买保税区发货的境外商品时，自动视为由小红书代您向海关进行申报和代缴税款。"
+										}
+									]
+								}
 							}
 						]
 					}
