@@ -34,4 +34,24 @@
         android:padding="10dp"
         android:text="Bottom Sheet" />
 
+    <TextView
+        android:id="@+id/footerBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:textSize="@dimen/xhs_theme_text_14"
+        android:padding="10dp"
+        android:text="Bottom Sheet" />
+
+    <TextView
+        android:id="@+id/priceText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:textSize="@dimen/xhs_theme_text_16"
+        android:textColor="@color/xhsTheme_colorGrayLevel1"
+        android:text="Bottom Sheet" />
+
 </LinearLayout>
