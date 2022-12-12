@@ -33,8 +33,7 @@
 							"width": 800,
 							"height": 800
 						}
-					],
-					"video": null
+					]
 				}
 			},
 			{
@@ -42,39 +41,70 @@
 				"card_name": "primary",
 				"cards": [
 					{
-						"card_type": "dsl",
-						"card_name": "price",
+						"card_type": "native",
+						"card_name": "primary_pre_activities_price",
 						"content": {
-							"highlight_price": 69.0,
-							"price_integer_part": "69",
+							"price": 450.99,
+							"price_integer_part": "450",
+							"price_decimal_part": ".99",
+							"pre_activities_image": "",
+							"pre_activities_image_width": 54,
+							"pre_activities_image_height": 24,
+							"pre_activities_tip": "明日十点开抢",
+							"background_image": "https://picasso-static.xiaohongshu.com/fe-platform/13edceb893f1b4f09eed79b694e85d7712faf521.png"
+						}
+					},
+					{
+						"card_type": "native",
+						"card_name": "primary_activities_price",
+						"content": {
+							"price": 450.99,
+							"price_integer_part": "450",
+							"price_decimal_part": ".99",
 							"deal_price": {
-								"price": 64.0,
+								"price": 410.00,
+								"price_integer_part": "410",
+								"price_decimal_part": ".00",
 								"type": 3,
-								"price_text": "到手价",
-								"is_show_price_pop": true
+								"price_text": "限时购"
 							},
-							"spu_analysis_data_text": "已售71",
-							"has_followed": false,
-							"multiple_discount": [],
 							"count_down": {
 								"text": "距离结束",
-								"time": 373413000
+								"time": 373413000,
+								"image": "",
+								"image_width": 54,
+								"image_height": 24
 							},
-							"background_image": "https://picasso-static.xiaohongshu.com/fe-platform/13edceb893f1b4f09eed79b694e85d7712faf521.png",
-							"tags": []
+							"background_image": "https://picasso-static.xiaohongshu.com/fe-platform/13edceb893f1b4f09eed79b694e85d7712faf521.png"
 						}
 					},
 					{
 						"card_type": "dsl",
-						"card_name": "title",
+						"card_name": "goods_detail_normal_price_dsl",
 						"content": {
-							"name": "泡泡玛特 · SKULLPANDA温度系列手办盲盒 潮流玩具可爱礼物 · 单个盲盒随机发",
+							"price": 450.99,
+							"price_integer_part": "450",
+							"price_decimal_part": ".99",
+							"deal_price": {
+								"price": 410.00,
+								"price_integer_part": "410",
+								"price_decimal_part": ".00",
+								"type": 3,
+								"price_text": "到手价"
+							},
+							"spu_analysis_data_text": "已售71"
+						}
+					},
+					{
+						"card_type": "native",
+						"card_name": "primary_title_view",
+						"content": {
+							"name": "泡泡玛特 · SKULLPANDA温度系列手办盲盒 潮流玩具可爱礼物 · 单个盲盒随机发，再加一段很长很长很长很长很长很长很长很长很长很长很长很长的文案",
 							"item_id": "6222ce263ba700000154d7a4",
 							"tags": [
 								{
-									"name": "自营",
-									"type": 2,
-									"image": null
+									"title": "自营",
+									"type": 2
 								}
 							],
 							"spu_analysis_data_text": "已售112",
@@ -84,14 +114,14 @@
 					},
 					{
 						"card_type": "dsl",
-						"card_name": "income_tax",
+						"card_name": "goods_detail_income_tax_dsl",
 						"content": {
 							"tax": "进口税 ￥2"
 						}
 					},
 					{
 						"card_type": "dsl",
-						"card_name": "service_assurance",
+						"card_name": "goods_detail_header_assurance_dsl",
 						"content": {
 							"list": [
 								{
@@ -150,8 +180,9 @@
 				"cards": [
 					{
 						"card_type": "dsl",
-						"card_name": "profit_bar",
+						"card_name": "goods_detail_profit_dsl",
 						"content": {
+							"title": "优惠",
 							"tags": [
 								"满199元送赠品",
 								"商家券｜满6减5"
@@ -185,6 +216,7 @@
 											"promotion_type": 19,
 											"name": "店铺满额赠",
 											"validate_time": "有效期至2022.11.30 23:59",
+											"link": "http://www.xiaohongshu.com/store/sm/group-addon/637c9805eb2bee00015b530b?openPage=yes",
 											"contents": [
 												{
 													"tag": "满199元送赠品",
@@ -216,8 +248,7 @@
 														}
 													]
 												}
-											],
-											"link": "http://www.xiaohongshu.com/store/sm/group-addon/637c9805eb2bee00015b530b?openPage=yes"
+											]
 										}
 									]
 								},
@@ -251,6 +282,37 @@
 												"该薯券可在【泡泡玛特 POP MART旗舰店】使用",
 												"特定商品（限时购、闪购、新人价、会员福利购）不可用"
 											]
+										},
+										{
+											"discount_upper_limit": null,
+											"include_in_deal_price": false,
+											"claim_ciphertext": "2Vsp0sxnSHpKR4fNOnHv2ZO6YkxnvfVDBf4Q8nx__ZPWJCOs1joqIHEWUJJk-9-v6mIFTg1THQdIgH8HeGEK16uZ_FpulVwQUltS2bqENJi_YPeuBY-Ohg",
+											"claim_id": "63896d0245ebdd00012c76a2",
+											"template_id": "63896d0245ebdd00012c76a0",
+											"discount_price": 3.0,
+											"discount_type": 0,
+											"threshold_text": "满10使用",
+											"name": "粉丝专享券-Sanlinba旗舰店",
+											"description": "该薯券可在【Sanlinba旗舰店】使用",
+											"validate_time": "2022.12.08 17:06 - 2023.01.07 17:06",
+											"version": 2,
+											"claim_tip": "关注账号领取优惠券",
+											"coupon_type": "fansExclusive",
+											"coupon_type_text": "粉丝券",
+											"button": {
+												"type": 4,
+												"text": "关注领取",
+												"link": null,
+												"jump_checkout": false,
+												"has_deposit_presale": null,
+												"available_use": null
+											},
+											"type": 2,
+											"countdown": null,
+											"others": [
+												"该薯券可在【Sanlinba旗舰店】使用",
+												"特定商品（限时购、闪购、新人价、会员福利购）不可用"
+											]
 										}
 									]
 								},
@@ -266,7 +328,7 @@
 					},
 					{
 						"card_type": "dsl",
-						"card_name": "installment",
+						"card_name": "goods_detail_installment_dsl",
 						"content": {
 							"title": "分期",
 							"text": "享12期免息，每期¥35.66，可省32.1元",
@@ -293,21 +355,26 @@
 					},
 					{
 						"card_type": "dsl",
-						"card_name": "stores",
-						"content": {}
-					},
-					{
-						"card_type": "dsl",
-						"card_name": "selected_variant",
+						"card_name": "goods_detail_store_dsl",
 						"content": {
-							"text": "单个盲盒随机发",
-							"item_id": "6364dfd879ee7700016de81c"
+							"title": "门店",
+							"text": "可适用门店共5家"
 						}
 					},
 					{
 						"card_type": "dsl",
-						"card_name": "delivery",
+						"card_name": "goods_detail_selected_variant_dsl",
 						"content": {
+							"title": "已选",
+							"text": "风信蓝 M",
+							"itemId": "62f61a8f6169760001ff17db"
+						}
+					},
+					{
+						"card_type": "dsl",
+						"card_name": "goods_detail_delivery_dsl",
+						"content": {
+							"title": "发货",
 							"location": "浙江嘉兴",
 							"fee": "实付¥89包邮",
 							"time": {
@@ -366,7 +433,7 @@
 				"card_type": "native",
 				"card_name": "shop_recommend",
 				"content": {
-					"logo": "https://sns-avatar-qc.xhscdn.com/avatar/61b6f9cc25400800012ad7bb.jpg?image_view2/2/w/120/format/jpg",
+					"logo": "https://sns-avatar-qc.xhscdn.com/avatar/61b6f9cc25400800012ad7bb.jpg?imageView2/2/w/120/format/jpg",
 					"name": "名创优品旗舰店",
 					"link": "xhsdiscover://rn/lancer/vendor/5b9b9126bb06cd65d3f41789",
 					"grade": "3.5",
@@ -457,10 +524,10 @@
 						},
 						"cards": [
 							{
-								"card_type": "dsl",
+								"card_type": "native",
 								"card_name": "variant_param",
 								"content": {
-									"title": "",
+									"title": null,
 									"list": [
 										{
 											"name": "商品名称",
@@ -469,6 +536,14 @@
 										{
 											"name": "品牌",
 											"value": "名创优品"
+										},
+										{
+											"name": "测试数据",
+											"value": "我是测试数据我是测试数据我是测试数据我是测试数据我是测试数据我是测试数据我是测试数据我是测试数据我是测试数据我是测试数据我是测试数据我是测试数据我是测试数据我是测试数据我是测试数据我是测试数据我是测试数据我是测试数据我是测试数据我是测试数据我是测试数据我是测试数据"
+										},
+										{
+											"name": "测试数据2",
+											"value": "我是测试Hudiwqhdkwqhdoiqwieiowijlkwejlkfknkldsjfisdouweoiruewhkdsjlkdsfdsnvc,x idsfiosduwekrjwle"
 										}
 									]
 								}
@@ -483,7 +558,7 @@
 						},
 						"cards": [
 							{
-								"card_type": "dsl",
+								"card_type": "native",
 								"card_name": "title_and_sub_titles",
 								"content": {
 									"title": "价格说明",
@@ -632,7 +707,8 @@
 				},
 				{
 					"type": "cart",
-					"count": 2
+					"name": "购物车",
+					"count": 120
 				}
 			],
 			"shop_buttons": [
