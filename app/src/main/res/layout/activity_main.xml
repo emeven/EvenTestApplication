@@ -40,18 +40,44 @@
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
         android:gravity="center"
-        android:textSize="@dimen/xhs_theme_text_14"
         android:padding="10dp"
-        android:text="Bottom Sheet" />
+        android:text="Bottom Sheet"
+        android:textSize="@dimen/xhs_theme_text_14" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/priceText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bottom Sheet"
+            android:textColor="@color/xhsTheme_colorGrayLevel1"
+            android:textSize="@dimen/xhs_theme_text_16" />
+
+        <TextView
+            android:id="@+id/price2Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/priceText"
+            android:translationY="-2dp"
+            android:layout_toEndOf="@id/priceText"
+            android:text="Bottom Sheet"
+            android:textColor="@color/xhsTheme_colorGrayLevel1"
+            android:textSize="@dimen/xhs_theme_text_14" />
+    </RelativeLayout>
 
     <TextView
-        android:id="@+id/priceText"
-        android:layout_width="wrap_content"
+        android:id="@+id/priceText2"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
+        android:layout_marginEnd="100dp"
+        android:background="@color/xhsTheme_colorGrayLevel6"
         android:gravity="center"
-        android:textSize="@dimen/xhs_theme_text_16"
+        android:text="Bottom Sheet"
         android:textColor="@color/xhsTheme_colorGrayLevel1"
-        android:text="Bottom Sheet" />
+        android:textSize="@dimen/xhs_theme_text_16" />
 
 </LinearLayout>

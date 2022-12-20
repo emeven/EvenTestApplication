@@ -97,54 +97,64 @@ class MainActivity : AppCompatActivity() {
         val dealPriceText = "到手价"
         val dealPrice = "425.35"
 
-        val spannableStringBuilder = SpannableStringBuilder(symbol)
-
-        val priceIntegerPartSpan = SpannableString(priceIntegerPart)
-        setRedNumTypeface(priceIntegerPartSpan, priceIntegerPartSpan.length)
-        setCustomSpan(priceIntegerPartSpan, priceIntegerPartSpan.length, 22.dp, R.color.xhsTheme_colorGrayLevel1, 1.dp)
-        spannableStringBuilder.append(priceIntegerPartSpan)
-
-        val decimalPartSpan = SpannableString(priceDecimalPart)
-        setRedNumTypeface(decimalPartSpan, decimalPartSpan.length)
-        spannableStringBuilder.append(decimalPartSpan)
-
-        // 到手价
-        val dealPriceTextSpan = SpannableString(dealPriceText)
-        setCustomSpan(dealPriceTextSpan, dealPriceText.length, 14.dp, R.color.xhsTheme_colorRed, 6.dp, 3.dpF)
-        spannableStringBuilder.append(dealPriceTextSpan)
-
-        // 到手价 ¥
-        val symbolSpan = SpannableString(symbol)
-        setCustomSpan(symbolSpan, symbol.length, 16.dp, R.color.xhsTheme_colorRed, 2.dp, 2.dpF)
-        spannableStringBuilder.append(symbolSpan)
-
-        // 到手价 价格
-        val dealPriceSpan = SpannableString(dealPrice)
-        setRedNumTypeface(dealPriceSpan, dealPriceSpan.length)
-        setCustomSpan(dealPriceSpan, dealPriceSpan.length, 16.dp, R.color.xhsTheme_colorRed, 1.dp, 1.dpF)
-        spannableStringBuilder.append(dealPriceSpan)
-
-        priceText.text = spannableStringBuilder
+        priceText.text = getPriceSpanV1()
+        priceText.typeface = redNumberMediumFont
+        price2Text.text = getPriceSpanV2()
 
         val spec = View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED)
         priceText.measure(spec, spec)
-        logep("measuredWidth = ${priceText.measuredWidth}")
+        logep("measuredWidth = ${priceText.measuredWidth}, measuredHeight = ${priceText.measuredHeight}")
 
         priceText.post {
             logep("width = ${priceText.width}")
         }
     }
 
-    private fun setRedNumTypeface(span: SpannableString, length: Int) {
+    private fun getPriceSpanV1(): SpannableStringBuilder {
+        val spannableStringBuilder = SpannableStringBuilder("¥ ")
+        // 价格整数
+        val priceIntegerPartSpan = SpannableString("2345")
+        priceIntegerPartSpan.setSpan(AbsoluteSizeSpan(22.dp), 0, priceIntegerPartSpan.length, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)
+        spannableStringBuilder.append(priceIntegerPartSpan)
+
+        // 价格小数
+        val decimalPartSpan = SpannableString(".89")
+        spannableStringBuilder.append(decimalPartSpan)
+
+        return spannableStringBuilder
+    }
+
+    private fun getPriceSpanV2(): SpannableStringBuilder {
+        val spannableStringBuilder = SpannableStringBuilder()
+
+        // 到手价
+        val dealPriceTextSpan = SpannableString("到手价")
+        spannableStringBuilder.append(dealPriceTextSpan)
+
+        // 到手价 ¥
+        val symbolSpan = SpannableString("¥")
+        setCustomSpan(symbolSpan, 16.dp, R.color.xhsTheme_colorRed, 2.dp, (-2).dpF)
+        spannableStringBuilder.append(symbolSpan)
+
+        // 到手价 价格
+        val dealPriceSpan = SpannableString("78.66")
+        setRedNumTypeface(dealPriceSpan)
+        setCustomSpan(dealPriceSpan, 16.dp, R.color.xhsTheme_colorRed, 1.dp, (-3).dpF)
+        spannableStringBuilder.append(dealPriceSpan)
+
+        return spannableStringBuilder
+    }
+
+    private fun setRedNumTypeface(span: SpannableString, length: Int = span.length) {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.P) {
             span.setSpan(RedNumTypefaceSpan(redNumberMediumFont), 0, length, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)
         }
     }
 
-    private fun setCustomSpan(span: SpannableString, length: Int, fontSize: Int, @ColorRes colorRes: Int, marginStart: Int = 0, marginBottom: Float = 0f) {
+    private fun setCustomSpan(span: SpannableString, fontSize: Int, @ColorRes colorRes: Int, marginStart: Int = 0, marginBottom: Float = 0f) {
         span.setSpan(CustomPriceSpan(fontSize, resources.getColor(colorRes)).apply {
             setMarginStart(marginStart)
             setBottomInterval(marginBottom)
-        }, 0, length, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)
+        }, 0, span.length, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)
     }
 }
