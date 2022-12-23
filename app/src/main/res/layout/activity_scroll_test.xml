@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".scroll.ScrollTestActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scroll_container"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <LinearLayout
+            android:id="@+id/ll_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/xhs_theme_dimension_10"
+                android:gravity="center"
+                android:padding="@dimen/xhs_theme_dimension_10"
+                android:text="1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/xhs_theme_dimension_10"
+                android:gravity="center"
+                android:padding="@dimen/xhs_theme_dimension_10"
+                android:text="2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/xhs_theme_dimension_10"
+                android:gravity="center"
+                android:padding="@dimen/xhs_theme_dimension_10"
+                android:text="3" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/xhs_theme_dimension_10"
+                android:gravity="center"
+                android:padding="@dimen/xhs_theme_dimension_10"
+                android:text="4" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/xhs_theme_dimension_10"
+                android:gravity="center"
+                android:padding="@dimen/xhs_theme_dimension_10"
+                android:text="5" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/xhs_theme_dimension_10"
+                android:gravity="center"
+                android:padding="@dimen/xhs_theme_dimension_10"
+                android:text="6" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/xhs_theme_dimension_10"
+                android:gravity="center"
+                android:padding="@dimen/xhs_theme_dimension_10"
+                android:text="7" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

@@ -8,11 +8,13 @@ import android.text.SpannableString
 import android.text.SpannableStringBuilder
 import android.text.Spanned
 import android.text.style.AbsoluteSizeSpan
+import android.text.style.StyleSpan
 import android.view.View
 import androidx.annotation.ColorRes
 import androidx.appcompat.app.AppCompatActivity
 import com.example.eventestapplication.bottomsheetbehavior.BottomSheetBehaviorActivity
 import com.example.eventestapplication.dragging.DraggingActivity
+import com.example.eventestapplication.scroll.ScrollTestActivity
 import com.example.eventestapplication.span.CustomPriceSpan
 import com.example.eventestapplication.span.RedNumTypefaceSpan
 import com.example.eventestapplication.utils.dp
@@ -80,13 +82,24 @@ class MainActivity : AppCompatActivity() {
         bottom_sheet_fragment.setOnClickListener {
             BottomSheetBehaviorActivity.start(this)
         }
+
+        footerBtn.setOnClickListener {
+            ScrollTestActivity.start(this)
+        }
     }
 
     private fun initFooterBtn() {
         val mainText = "预约提醒\n"
         val subText = "6.12 08:00 开售"
-        val spanBuilder = SpannableString(mainText + subText)
-        spanBuilder.setSpan(AbsoluteSizeSpan(10.dp), mainText.length, mainText.length + subText.length, Spannable.SPAN_EXCLUSIVE_INCLUSIVE)
+        val spanBuilder = SpannableStringBuilder()
+
+        val mainSpan = SpannableString(mainText)
+        mainSpan.setSpan(StyleSpan(Typeface.BOLD), 0, mainSpan.length, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE)
+        spanBuilder.append(mainSpan)
+
+        val subSpan = SpannableString(subText)
+        subSpan.setSpan(AbsoluteSizeSpan(10.dp), 0, subSpan.length, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE)
+        spanBuilder.append(subSpan)
         footerBtn.text = spanBuilder
     }
 
