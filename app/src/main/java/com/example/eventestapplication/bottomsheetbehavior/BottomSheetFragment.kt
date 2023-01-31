@@ -40,6 +40,18 @@ class BottomSheetFragment(private val behavior: BottomSheetBehavior<*>) : Fragme
         adapter.register(String::class.java, HeadImageItemBinder())
     }
 
+    private val firstItemDecoration by lazy {
+        object : RecyclerView.ItemDecoration() {
+            override fun getItemOffsets(outRect: Rect, view: View, parent: RecyclerView, state: RecyclerView.State) {
+                super.getItemOffsets(outRect, view, parent, state)
+                val pos = parent.getChildAdapterPosition(view)
+                if (pos == 0) {
+                    outRect.bottom = -((1 - firstItemVisibleProgress()) * 150.dp).toInt()
+                }
+            }
+        }
+    }
+
     private fun initRecyclerView() {
         bottom_sheet_rv.layoutManager = LinearLayoutManager(context, LinearLayoutManager.VERTICAL, false)
         bottom_sheet_rv.adapter = adapter
@@ -49,11 +61,29 @@ class BottomSheetFragment(private val behavior: BottomSheetBehavior<*>) : Fragme
                 // 上滑 dy > 0 ; 下滑 dy < 0
                 val layoutManager = bottom_sheet_rv.layoutManager as LinearLayoutManager
                 if (layoutManager.findFirstVisibleItemPosition() != 0) return
-                logep("dy = $dy, progress = ${getProgress()}")
                 cover_view.alpha = 1 - getProgress()
+
+                bottom_sheet_rv.removeItemDecoration(firstItemDecoration)
+                bottom_sheet_rv.addItemDecoration(firstItemDecoration)
+
             }
         })
         bottom_sheet.setTopRoundCorner(12.dpF)
+
+    }
+
+    private fun firstItemVisibleProgress(): Float {
+        val layoutManager = bottom_sheet_rv.layoutManager as LinearLayoutManager
+        if (layoutManager.findFirstVisibleItemPosition() != 0) return 0f
+        val viewHolder = bottom_sheet_rv.findViewHolderForAdapterPosition(0)
+        val screenWidth = UIUtil.getScreenWidth(context).toFloat()
+        viewHolder?.itemView?.apply {
+            val rect = Rect()
+            if (getLocalVisibleRect(rect)) {
+                return if (rect.height() > 0) rect.height() / screenWidth else 0f
+            }
+        }
+        return 0f
     }
 
     private fun getProgress(): Float {
@@ -65,7 +95,6 @@ class BottomSheetFragment(private val behavior: BottomSheetBehavior<*>) : Fragme
             val rect = Rect()
             if (getGlobalVisibleRect(rect) && !coverRect.isEmpty) {
                 val visibleHeight = rect.bottom - coverRect.bottom
-                logep("rect bottom = ${rect.bottom}, coverRect = ${coverRect.bottom}")
                 return if (visibleHeight > 0) visibleHeight / (screenWidth - coverRect.height()) else 0f
             }
         }
@@ -91,7 +120,7 @@ class BottomSheetFragment(private val behavior: BottomSheetBehavior<*>) : Fragme
         behavior.isHideable = true
         behavior.addBottomSheetCallback(object : BottomSheetBehavior.BottomSheetCallback() {
             override fun onStateChanged(bottomSheet: View, newState: Int) {
-                when(newState) {
+                when (newState) {
                     BottomSheetBehavior.STATE_EXPANDED -> {
                         logep("STATE_EXPANDED")
                         cover_view.show()
@@ -112,7 +141,6 @@ class BottomSheetFragment(private val behavior: BottomSheetBehavior<*>) : Fragme
             }
 
             override fun onSlide(bottomSheet: View, slideOffset: Float) {
-//                logep("slideOffset = $slideOffset")
                 offset_view.alpha = slideOffset
             }
 

@@ -44,6 +44,17 @@
         android:text="Bottom Sheet"
         android:textSize="@dimen/xhs_theme_text_14" />
 
+    <TextView
+        android:id="@+id/search_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/xhs_theme_dimension_32"
+        android:background="#0B000000"
+        android:drawablePadding="@dimen/xhs_theme_dimension_4"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="@dimen/xhs_theme_dimension_12"
+        android:text="钻石森林香薰"
+        app:drawableStart="@drawable/search" />
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">

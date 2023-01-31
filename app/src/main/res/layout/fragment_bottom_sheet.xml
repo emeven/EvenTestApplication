@@ -21,7 +21,7 @@
     <View
         android:id="@+id/offset_view"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="88dp"
         android:background="#565656"/>
 
     <LinearLayout
